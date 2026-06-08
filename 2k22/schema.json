@@ -1,0 +1,4625 @@
+{
+  "schemaVersion": 1,
+  "versionKey": "2k22",
+  "name": "NBA 2K22",
+  "provenance": "system",
+  "categories": [
+    {
+      "key": "outside",
+      "label": "Outside Scoring"
+    },
+    {
+      "key": "inside",
+      "label": "Inside Scoring"
+    },
+    {
+      "key": "defending",
+      "label": "Defending"
+    },
+    {
+      "key": "athleticism",
+      "label": "Athleticism"
+    },
+    {
+      "key": "playmaking",
+      "label": "Playmaking"
+    },
+    {
+      "key": "rebounding",
+      "label": "Rebounding"
+    }
+  ],
+  "attributes": [
+    {
+      "key": "shotThree",
+      "name": "Shot 3pt",
+      "category": "outside",
+      "tier": 2
+    },
+    {
+      "key": "shotMid",
+      "name": "Shot Mid",
+      "category": "outside",
+      "tier": 2
+    },
+    {
+      "key": "shotIQ",
+      "name": "Shot IQ",
+      "category": "outside",
+      "tier": 0
+    },
+    {
+      "key": "freeThrow",
+      "name": "Free Throw",
+      "category": "outside",
+      "tier": 1
+    },
+    {
+      "key": "offensiveConsistency",
+      "name": "Offensive Consistency",
+      "category": "outside",
+      "tier": 0
+    },
+    {
+      "key": "speed",
+      "name": "Speed",
+      "category": "athleticism",
+      "tier": 2
+    },
+    {
+      "key": "acceleration",
+      "name": "Acceleration",
+      "category": "athleticism",
+      "tier": 1
+    },
+    {
+      "key": "vertical",
+      "name": "Vertical",
+      "category": "athleticism",
+      "tier": 1
+    },
+    {
+      "key": "strength",
+      "name": "Strength",
+      "category": "athleticism",
+      "tier": 2
+    },
+    {
+      "key": "stamina",
+      "name": "Stamina",
+      "category": "athleticism",
+      "tier": 2
+    },
+    {
+      "key": "hustle",
+      "name": "Hustle",
+      "category": "athleticism",
+      "tier": 0
+    },
+    {
+      "key": "shotClose",
+      "name": "Shot Close",
+      "category": "inside",
+      "tier": 1
+    },
+    {
+      "key": "drivingLayup",
+      "name": "Driving Layup",
+      "category": "inside",
+      "tier": 2
+    },
+    {
+      "key": "standingDunk",
+      "name": "Standing Dunk",
+      "category": "inside",
+      "tier": 2
+    },
+    {
+      "key": "drivingDunk",
+      "name": "Driving Dunk",
+      "category": "inside",
+      "tier": 2
+    },
+    {
+      "key": "drawFoul",
+      "name": "Draw Foul",
+      "category": "inside",
+      "tier": 1
+    },
+    {
+      "key": "postMoves",
+      "name": "Post Moves",
+      "category": "inside",
+      "tier": 2
+    },
+    {
+      "key": "postHook",
+      "name": "Post Hook",
+      "category": "inside",
+      "tier": 2
+    },
+    {
+      "key": "postFade",
+      "name": "Post Fade",
+      "category": "inside",
+      "tier": 2
+    },
+    {
+      "key": "hands",
+      "name": "Hands",
+      "category": "inside",
+      "tier": 0
+    },
+    {
+      "key": "speedWithBall",
+      "name": "Speed With Ball",
+      "category": "playmaking",
+      "tier": 2
+    },
+    {
+      "key": "ballHandling",
+      "name": "Ball Handling",
+      "category": "playmaking",
+      "tier": 2
+    },
+    {
+      "key": "passingAccuracy",
+      "name": "Passing Accuracy",
+      "category": "playmaking",
+      "tier": 1
+    },
+    {
+      "key": "passingVision",
+      "name": "Passing Vision",
+      "category": "playmaking",
+      "tier": 1
+    },
+    {
+      "key": "passingIQ",
+      "name": "Passing IQ",
+      "category": "playmaking",
+      "tier": 1
+    },
+    {
+      "key": "interiorDefense",
+      "name": "Interior Defense",
+      "category": "defending",
+      "tier": 2
+    },
+    {
+      "key": "perimeterDefense",
+      "name": "Perimeter Defense",
+      "category": "defending",
+      "tier": 2
+    },
+    {
+      "key": "helpDefenseIQ",
+      "name": "Help Defense IQ",
+      "category": "defending",
+      "tier": 1
+    },
+    {
+      "key": "lateralQuickness",
+      "name": "Lateral Quickness",
+      "category": "defending",
+      "tier": 1
+    },
+    {
+      "key": "passPerception",
+      "name": "Pass Perception",
+      "category": "defending",
+      "tier": 1
+    },
+    {
+      "key": "steal",
+      "name": "Steal",
+      "category": "defending",
+      "tier": 2
+    },
+    {
+      "key": "block",
+      "name": "Block",
+      "category": "defending",
+      "tier": 2
+    },
+    {
+      "key": "defensiveConsistency",
+      "name": "Defensive Consistency",
+      "category": "defending",
+      "tier": 1
+    },
+    {
+      "key": "offensiveRebound",
+      "name": "Offensive Rebound",
+      "category": "rebounding",
+      "tier": 2
+    },
+    {
+      "key": "defensiveRebound",
+      "name": "Defensive Rebound",
+      "category": "rebounding",
+      "tier": 2
+    }
+  ],
+  "badges": [
+    {
+      "key": "acrobat",
+      "name": "Acrobat",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "backdownPunisher",
+      "name": "Backdown Punisher",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "consistentFinisher",
+      "name": "Consistent Finisher",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "contactFinisher",
+      "name": "Contact Finisher",
+      "category": "athleticism",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 40
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 50
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 70
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "crossKeyScorer",
+      "name": "Cross Key Scorer",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": [
+            {
+              "attributeKey": "shotClose",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "shotClose",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "shotClose",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": [
+            {
+              "attributeKey": "shotClose",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "deepHooks",
+      "name": "Deep Hooks",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "postHook",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "postHook",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "postHook",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "postHook",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dropstepper",
+      "name": "Dropstepper",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fancyFootwork",
+      "name": "Fancy Footwork",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fastbreakFinisher",
+      "name": "Fastbreak Finisher",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 60
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 70
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 80
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 90
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "giantSlayer",
+      "name": "Giant Slayer",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 60
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 70
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 80
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 90
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lobCityFinisher",
+      "name": "Lob City Finisher",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "drivingDunk",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "drivingDunk",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "drivingDunk",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "drivingDunk",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pickAndRoller",
+      "name": "Pick and Roller",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 60
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 70
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 80
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 90
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "proTouch",
+      "name": "Pro Touch",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "putbackBoss",
+      "name": "Putback Boss",
+      "category": "rebounding",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": [
+            {
+              "attributeKey": "offensiveRebound",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "offensiveRebound",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "offensiveRebound",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": [
+            {
+              "attributeKey": "offensiveRebound",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "relentlessFinisher",
+      "name": "Relentless Finisher",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 60
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 75
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 75
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 80
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 90
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "showtime",
+      "name": "Showtime",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 60
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 70
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 80
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 90
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "slitheryFinisher",
+      "name": "Slithery Finisher",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 60
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 70
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 80
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": [
+            {
+              "attributeKey": "drivingLayup",
+              "min": 90
+            },
+            {
+              "attributeKey": "drivingDunk",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tearDropper",
+      "name": "Tear Dropper",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": [
+            {
+              "attributeKey": "shotClose",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "shotClose",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "shotClose",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": [
+            {
+              "attributeKey": "shotClose",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "catchAndShoot",
+      "name": "Catch and Shoot",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "shotMid",
+              "min": 60
+            },
+            {
+              "attributeKey": "shotThree",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "shotMid",
+              "min": 70
+            },
+            {
+              "attributeKey": "shotThree",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "shotMid",
+              "min": 80
+            },
+            {
+              "attributeKey": "shotThree",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "shotMid",
+              "min": 90
+            },
+            {
+              "attributeKey": "shotThree",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "deadeye",
+      "name": "Deadeye",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "shotMid",
+              "min": 60
+            },
+            {
+              "attributeKey": "shotThree",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "shotMid",
+              "min": 70
+            },
+            {
+              "attributeKey": "shotThree",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "shotMid",
+              "min": 80
+            },
+            {
+              "attributeKey": "shotThree",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": [
+            {
+              "attributeKey": "shotMid",
+              "min": 90
+            },
+            {
+              "attributeKey": "shotThree",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "clutchShooter",
+      "name": "Clutch Shooter",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "shotMid",
+              "min": 60
+            },
+            {
+              "attributeKey": "shotThree",
+              "min": 60
+            },
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "shotMid",
+              "min": 70
+            },
+            {
+              "attributeKey": "shotThree",
+              "min": 70
+            },
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 75
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "shotMid",
+              "min": 80
+            },
+            {
+              "attributeKey": "shotThree",
+              "min": 80
+            },
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "shotMid",
+              "min": 90
+            },
+            {
+              "attributeKey": "shotThree",
+              "min": 90
+            },
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cornerSpecialist",
+      "name": "Corner Specialist",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "shotThree",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "shotThree",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "shotThree",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "shotThree",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "deepFades",
+      "name": "Deep Fades",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": [
+            {
+              "attributeKey": "postFade",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "postFade",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "postFade",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": [
+            {
+              "attributeKey": "postFade",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "difficultShots",
+      "name": "Difficult Shots",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "shotMid",
+              "min": 60
+            },
+            {
+              "attributeKey": "shotThree",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "shotMid",
+              "min": 70
+            },
+            {
+              "attributeKey": "shotThree",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "shotMid",
+              "min": 80
+            },
+            {
+              "attributeKey": "shotThree",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "shotMid",
+              "min": 90
+            },
+            {
+              "attributeKey": "shotThree",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "flexibleRelease",
+      "name": "Flexible Release",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": [
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 75
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": [
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "greenMachine",
+      "name": "Green Machine",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": []
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": []
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": []
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "key": "hotStart",
+      "name": "Hot Start",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": []
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": []
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": []
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "key": "hotZoneHunter",
+      "name": "Hot Zone Hunter",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": []
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": []
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": []
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "key": "iceInVeins",
+      "name": "Ice In Veins",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": []
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": []
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": []
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "key": "pickAndPopper",
+      "name": "Pick and Popper",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": []
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": []
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": []
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "key": "pumpFakeMaestro",
+      "name": "Pump Fake Maestro",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": []
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": []
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": []
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "key": "quickDraw",
+      "name": "Quick Draw",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": []
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": []
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": []
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "key": "slipperyOffBall",
+      "name": "Slippery Off-Ball",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": []
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": []
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": []
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "key": "rangeExtender",
+      "name": "Range Extender",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": [
+            {
+              "attributeKey": "shotThree",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "shotThree",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "shotThree",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": [
+            {
+              "attributeKey": "shotThree",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "steadyShooter",
+      "name": "Steady Shooter",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tirelessShooter",
+      "name": "Tireless Shooter",
+      "category": "athleticism",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "stamina",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "stamina",
+              "min": 75
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "stamina",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "stamina",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "volumeShooter",
+      "name": "Volume Shooter",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "offensiveConsistency",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ankleBreaker",
+      "name": "Ankle Breaker",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bailOut",
+      "name": "Bail Out",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "breakStarter",
+      "name": "Break Starter",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dimer",
+      "name": "Dimer",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 60
+            },
+            {
+              "attributeKey": "passingIQ",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 70
+            },
+            {
+              "attributeKey": "passingIQ",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 80
+            },
+            {
+              "attributeKey": "passingIQ",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 90
+            },
+            {
+              "attributeKey": "passingIQ",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "downhill",
+      "name": "Downhill",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "speedWithBall",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "speedWithBall",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "speedWithBall",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "speedWithBall",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dreamShake",
+      "name": "DreamShake",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "flashyPasser",
+      "name": "Flashy Passer",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "floorGeneral",
+      "name": "Floor General",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 60
+            },
+            {
+              "attributeKey": "passingVision",
+              "min": 60
+            },
+            {
+              "attributeKey": "passingIQ",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 70
+            },
+            {
+              "attributeKey": "passingVision",
+              "min": 70
+            },
+            {
+              "attributeKey": "passingIQ",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 80
+            },
+            {
+              "attributeKey": "passingVision",
+              "min": 80
+            },
+            {
+              "attributeKey": "passingIQ",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 90
+            },
+            {
+              "attributeKey": "passingVision",
+              "min": 90
+            },
+            {
+              "attributeKey": "passingIQ",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "handlesForDays",
+      "name": "Handles for Days",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lobCityPasser",
+      "name": "Lob City Passer",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "needleThreader",
+      "name": "Needle Threader",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "passingAccuracy",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "passFakeMaestro",
+      "name": "Pass Fake Maestro",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": []
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": []
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": []
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "key": "postSpinTechnician",
+      "name": "Post Spin Technician",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "postMoves",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "quickFirstStep",
+      "name": "Quick First Step",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "speedWithBall",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "speedWithBall",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "speedWithBall",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": [
+            {
+              "attributeKey": "speedWithBall",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "spaceCreator",
+      "name": "Space Creator",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "stopAndGo",
+      "name": "Stop and Go",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tightHandles",
+      "name": "Tight Handles",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unpluckable",
+      "name": "Unpluckable",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "ballHandling",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "box",
+      "name": "Box",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": []
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": []
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": []
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "key": "brickWall",
+      "name": "Brick Wall",
+      "category": "athleticism",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 50
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "chaseDownArtist",
+      "name": "Chase Down Artist",
+      "category": "defending",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "clamps",
+      "name": "Clamps",
+      "category": "defending",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "defensiveLeader",
+      "name": "Defensive Leader",
+      "category": "defending",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 60
+            },
+            {
+              "attributeKey": "interiorDefense",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 60
+            },
+            {
+              "attributeKey": "interiorDefense",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 80
+            },
+            {
+              "attributeKey": "interiorDefense",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 90
+            },
+            {
+              "attributeKey": "interiorDefense",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "heartCrusher",
+      "name": "Heart Crusher",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": []
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": []
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": []
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "key": "interceptor",
+      "name": "Interceptor",
+      "category": "defending",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "steal",
+              "min": 60
+            },
+            {
+              "attributeKey": "reactionTime",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "steal",
+              "min": 70
+            },
+            {
+              "attributeKey": "reactionTime",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "steal",
+              "min": 80
+            },
+            {
+              "attributeKey": "reactionTime",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "steal",
+              "min": 90
+            },
+            {
+              "attributeKey": "reactionTime",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "intimidator",
+      "name": "Intimidator",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": []
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": []
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": []
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "key": "lightningReflexes",
+      "name": "Lightning Reflexes",
+      "category": "defending",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": [
+            {
+              "attributeKey": "reactionTime",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "reactionTime",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "reactionTime",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": [
+            {
+              "attributeKey": "reactionTime",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "movingTruck",
+      "name": "Moving Truck",
+      "category": "athleticism",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 50
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "offBallPest",
+      "name": "Off-Ball Pest",
+      "category": "athleticism",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": [
+            {
+              "attributeKey": "hustle",
+              "min": 50
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "hustle",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "hustle",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": [
+            {
+              "attributeKey": "hustle",
+              "min": 85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pickDodger",
+      "name": "Pick Dodger",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": []
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": []
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": []
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "key": "pickPocket",
+      "name": "Pick Pocket",
+      "category": "defending",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "steal",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "steal",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "steal",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "steal",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pogoStick",
+      "name": "Pogo Stick",
+      "category": "defending",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4000,
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 10000,
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "postMoveLockdown",
+      "name": "Post Move Lockdown",
+      "category": "defending",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": [
+            {
+              "attributeKey": "interiorDefense",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": [
+            {
+              "attributeKey": "interiorDefense",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": [
+            {
+              "attributeKey": "interiorDefense",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": [
+            {
+              "attributeKey": "interiorDefense",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "reboundChaser",
+      "name": "Rebound Chaser",
+      "category": "rebounding",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "defensiveRebound",
+              "min": 60
+            },
+            {
+              "attributeKey": "offensiveRebound",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "defensiveRebound",
+              "min": 70
+            },
+            {
+              "attributeKey": "offensiveRebound",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "defensiveRebound",
+              "min": 80
+            },
+            {
+              "attributeKey": "offensiveRebound",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "defensiveRebound",
+              "min": 90
+            },
+            {
+              "attributeKey": "offensiveRebound",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tirelessDefender",
+      "name": "Tireless Defender",
+      "category": "athleticism",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "stamina",
+              "min": 70
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "stamina",
+              "min": 75
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "stamina",
+              "min": 80
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "stamina",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "trapper",
+      "name": "Trapper",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 500,
+          "requirements": []
+        },
+        {
+          "tier": "silver",
+          "xp": 1000,
+          "requirements": []
+        },
+        {
+          "tier": "gold",
+          "xp": 2000,
+          "requirements": []
+        },
+        {
+          "tier": "hof",
+          "xp": 5000,
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "key": "rimProtector",
+      "name": "Rim Protector",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": []
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": []
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": []
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "key": "worm",
+      "name": "Worm",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": []
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": []
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": []
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": []
+        }
+      ]
+    }
+  ],
+  "badgeTiers": [
+    {
+      "key": "bronze",
+      "label": "Bronze",
+      "points": 5,
+      "color": "bronze"
+    },
+    {
+      "key": "silver",
+      "label": "Silver",
+      "points": 10,
+      "color": "silver"
+    },
+    {
+      "key": "gold",
+      "label": "Gold",
+      "points": 20,
+      "color": "gold"
+    },
+    {
+      "key": "hof",
+      "label": "Hall of Fame",
+      "points": 40,
+      "color": "hof"
+    }
+  ],
+  "archetypes": [
+    {
+      "key": "3nd",
+      "name": "3&D",
+      "description": "",
+      "ratios": {
+        "outside": 0.5,
+        "defending": 0.3,
+        "athleticism": 0.2
+      }
+    },
+    {
+      "key": "slasher",
+      "name": "Slasher",
+      "description": "",
+      "ratios": {
+        "inside": 0.5,
+        "athleticism": 0.4,
+        "defending": 0.1
+      }
+    },
+    {
+      "key": "playmaker",
+      "name": "Playmaker",
+      "description": "",
+      "ratios": {
+        "playmaking": 0.5,
+        "athleticism": 0.3,
+        "inside": 0.1,
+        "outside": 0.1
+      }
+    },
+    {
+      "key": "postdefender",
+      "name": "Post Defender",
+      "description": "",
+      "ratios": {
+        "defending": 0.5,
+        "athleticism": 0.3,
+        "rebounding": 0.2
+      }
+    },
+    {
+      "key": "perimeterdefender",
+      "name": "Perimeter Defender",
+      "description": "",
+      "ratios": {
+        "defending": 0.5,
+        "athleticism": 0.4,
+        "playmaking": 0.1
+      }
+    },
+    {
+      "key": "allaround",
+      "name": "All-Around",
+      "description": "",
+      "ratios": {
+        "outside": 0.2,
+        "inside": 0.2,
+        "playmaking": 0.1,
+        "athleticism": 0.2,
+        "defending": 0.2,
+        "rebounding": 0.1
+      }
+    }
+  ],
+  "startingByHeight": {
+    "67": {
+      "shotThree": 60,
+      "shotMid": 60,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "shotClose": 70,
+      "passPerception": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85,
+      "drivingLayup": 75,
+      "standingDunk": 25,
+      "drivingDunk": 40,
+      "ballHandling": 80,
+      "speedWithBall": 82,
+      "passingVision": 60,
+      "passingIQ": 60,
+      "passingAccuracy": 60,
+      "perimeterDefense": 40,
+      "interiorDefense": 25,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 65,
+      "steal": 45,
+      "block": 25,
+      "defensiveRebound": 40,
+      "offensiveRebound": 40,
+      "speed": 80,
+      "acceleration": 80,
+      "vertical": 80,
+      "strength": 40,
+      "hustle": 70,
+      "stamina": 70
+    },
+    "68": {
+      "shotThree": 59,
+      "shotMid": 59,
+      "shotClose": 70,
+      "drivingLayup": 74,
+      "standingDunk": 27,
+      "drivingDunk": 42,
+      "ballHandling": 79,
+      "speedWithBall": 81,
+      "passingVision": 59,
+      "passingIQ": 59,
+      "passingAccuracy": 59,
+      "perimeterDefense": 41,
+      "interiorDefense": 25,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 64,
+      "steal": 44,
+      "block": 26,
+      "defensiveRebound": 41,
+      "offensiveRebound": 41,
+      "speed": 79,
+      "acceleration": 79,
+      "vertical": 79,
+      "strength": 41,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "69": {
+      "shotThree": 58,
+      "shotMid": 58,
+      "shotClose": 70,
+      "drivingLayup": 73,
+      "standingDunk": 29,
+      "drivingDunk": 44,
+      "ballHandling": 78,
+      "speedWithBall": 80,
+      "passingVision": 58,
+      "passingIQ": 58,
+      "passingAccuracy": 58,
+      "perimeterDefense": 42,
+      "interiorDefense": 25,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 63,
+      "steal": 43,
+      "block": 27,
+      "defensiveRebound": 42,
+      "offensiveRebound": 42,
+      "speed": 78,
+      "acceleration": 78,
+      "vertical": 78,
+      "strength": 42,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "70": {
+      "shotThree": 57,
+      "shotMid": 57,
+      "shotClose": 70,
+      "drivingLayup": 72,
+      "standingDunk": 31,
+      "drivingDunk": 46,
+      "ballHandling": 77,
+      "speedWithBall": 79,
+      "passingVision": 57,
+      "passingIQ": 57,
+      "passingAccuracy": 57,
+      "perimeterDefense": 43,
+      "interiorDefense": 25,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 62,
+      "steal": 42,
+      "block": 28,
+      "defensiveRebound": 43,
+      "offensiveRebound": 43,
+      "speed": 77,
+      "acceleration": 77,
+      "vertical": 77,
+      "strength": 43,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "71": {
+      "shotThree": 56,
+      "shotMid": 56,
+      "shotClose": 70,
+      "drivingLayup": 71,
+      "standingDunk": 33,
+      "drivingDunk": 48,
+      "ballHandling": 76,
+      "speedWithBall": 78,
+      "passingVision": 56,
+      "passingIQ": 56,
+      "passingAccuracy": 56,
+      "perimeterDefense": 44,
+      "interiorDefense": 25,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 61,
+      "steal": 41,
+      "block": 29,
+      "defensiveRebound": 44,
+      "offensiveRebound": 44,
+      "speed": 76,
+      "acceleration": 76,
+      "vertical": 76,
+      "strength": 44,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "72": {
+      "shotThree": 55,
+      "shotMid": 55,
+      "shotClose": 70,
+      "drivingLayup": 70,
+      "standingDunk": 35,
+      "drivingDunk": 50,
+      "ballHandling": 75,
+      "speedWithBall": 77,
+      "passingVision": 55,
+      "passingIQ": 55,
+      "passingAccuracy": 55,
+      "perimeterDefense": 45,
+      "interiorDefense": 25,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 60,
+      "steal": 40,
+      "block": 30,
+      "defensiveRebound": 45,
+      "offensiveRebound": 45,
+      "speed": 75,
+      "acceleration": 75,
+      "vertical": 75,
+      "strength": 45,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "73": {
+      "shotThree": 54,
+      "shotMid": 54,
+      "shotClose": 70,
+      "drivingLayup": 69,
+      "standingDunk": 37,
+      "drivingDunk": 52,
+      "ballHandling": 74,
+      "speedWithBall": 76,
+      "passingVision": 54,
+      "passingIQ": 54,
+      "passingAccuracy": 54,
+      "perimeterDefense": 46,
+      "interiorDefense": 26,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 59,
+      "steal": 39,
+      "block": 31,
+      "defensiveRebound": 46,
+      "offensiveRebound": 46,
+      "speed": 74,
+      "acceleration": 74,
+      "vertical": 74,
+      "strength": 46,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "74": {
+      "shotThree": 53,
+      "shotMid": 53,
+      "shotClose": 70,
+      "drivingLayup": 68,
+      "standingDunk": 39,
+      "drivingDunk": 54,
+      "ballHandling": 73,
+      "speedWithBall": 75,
+      "passingVision": 53,
+      "passingIQ": 53,
+      "passingAccuracy": 53,
+      "perimeterDefense": 47,
+      "interiorDefense": 27,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 58,
+      "steal": 38,
+      "block": 32,
+      "defensiveRebound": 47,
+      "offensiveRebound": 47,
+      "speed": 73,
+      "acceleration": 73,
+      "vertical": 73,
+      "strength": 47,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "75": {
+      "shotThree": 52,
+      "shotMid": 52,
+      "shotClose": 70,
+      "drivingLayup": 67,
+      "standingDunk": 41,
+      "drivingDunk": 56,
+      "ballHandling": 72,
+      "speedWithBall": 74,
+      "passingVision": 52,
+      "passingIQ": 52,
+      "passingAccuracy": 52,
+      "perimeterDefense": 48,
+      "interiorDefense": 28,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 57,
+      "steal": 37,
+      "block": 33,
+      "defensiveRebound": 48,
+      "offensiveRebound": 48,
+      "speed": 72,
+      "acceleration": 72,
+      "vertical": 72,
+      "strength": 48,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "76": {
+      "shotThree": 51,
+      "shotMid": 51,
+      "shotClose": 70,
+      "drivingLayup": 66,
+      "standingDunk": 43,
+      "drivingDunk": 58,
+      "ballHandling": 68,
+      "speedWithBall": 72,
+      "passingVision": 51,
+      "passingIQ": 51,
+      "passingAccuracy": 51,
+      "perimeterDefense": 49,
+      "interiorDefense": 29,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 56,
+      "steal": 36,
+      "block": 34,
+      "defensiveRebound": 49,
+      "offensiveRebound": 49,
+      "speed": 70,
+      "acceleration": 70,
+      "vertical": 71,
+      "strength": 49,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "77": {
+      "shotThree": 50,
+      "shotMid": 50,
+      "shotClose": 70,
+      "drivingLayup": 65,
+      "standingDunk": 45,
+      "drivingDunk": 60,
+      "ballHandling": 64,
+      "speedWithBall": 68,
+      "passingVision": 50,
+      "passingIQ": 50,
+      "passingAccuracy": 50,
+      "perimeterDefense": 50,
+      "interiorDefense": 30,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 55,
+      "steal": 35,
+      "block": 35,
+      "defensiveRebound": 50,
+      "offensiveRebound": 50,
+      "speed": 68,
+      "acceleration": 68,
+      "vertical": 70,
+      "strength": 50,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "78": {
+      "shotThree": 49,
+      "shotMid": 49,
+      "shotClose": 70,
+      "drivingLayup": 64,
+      "standingDunk": 47,
+      "drivingDunk": 62,
+      "ballHandling": 60,
+      "speedWithBall": 64,
+      "passingVision": 49,
+      "passingIQ": 49,
+      "passingAccuracy": 49,
+      "perimeterDefense": 51,
+      "interiorDefense": 31,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 54,
+      "steal": 34,
+      "block": 37,
+      "defensiveRebound": 51,
+      "offensiveRebound": 51,
+      "speed": 66,
+      "acceleration": 66,
+      "vertical": 69,
+      "strength": 51,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "79": {
+      "shotThree": 48,
+      "shotMid": 48,
+      "shotClose": 70,
+      "drivingLayup": 63,
+      "standingDunk": 49,
+      "drivingDunk": 64,
+      "ballHandling": 58,
+      "speedWithBall": 60,
+      "passingVision": 48,
+      "passingIQ": 48,
+      "passingAccuracy": 48,
+      "perimeterDefense": 52,
+      "interiorDefense": 32,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 53,
+      "steal": 33,
+      "block": 39,
+      "defensiveRebound": 52,
+      "offensiveRebound": 52,
+      "speed": 64,
+      "acceleration": 64,
+      "vertical": 68,
+      "strength": 52,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "80": {
+      "shotThree": 47,
+      "shotMid": 47,
+      "shotClose": 70,
+      "drivingLayup": 62,
+      "standingDunk": 51,
+      "drivingDunk": 62,
+      "ballHandling": 54,
+      "speedWithBall": 56,
+      "passingVision": 47,
+      "passingIQ": 47,
+      "passingAccuracy": 47,
+      "perimeterDefense": 51,
+      "interiorDefense": 33,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 52,
+      "steal": 32,
+      "block": 41,
+      "defensiveRebound": 53,
+      "offensiveRebound": 53,
+      "speed": 62,
+      "acceleration": 62,
+      "vertical": 67,
+      "strength": 53,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "81": {
+      "shotThree": 46,
+      "shotMid": 46,
+      "shotClose": 70,
+      "drivingLayup": 61,
+      "standingDunk": 53,
+      "drivingDunk": 60,
+      "ballHandling": 50,
+      "speedWithBall": 52,
+      "passingVision": 46,
+      "passingIQ": 46,
+      "passingAccuracy": 46,
+      "perimeterDefense": 49,
+      "interiorDefense": 34,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 51,
+      "steal": 31,
+      "block": 43,
+      "defensiveRebound": 54,
+      "offensiveRebound": 54,
+      "speed": 58,
+      "acceleration": 58,
+      "vertical": 66,
+      "strength": 54,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "82": {
+      "shotThree": 45,
+      "shotMid": 45,
+      "shotClose": 70,
+      "drivingLayup": 60,
+      "standingDunk": 55,
+      "drivingDunk": 58,
+      "ballHandling": 46,
+      "speedWithBall": 48,
+      "passingVision": 45,
+      "passingIQ": 45,
+      "passingAccuracy": 45,
+      "perimeterDefense": 45,
+      "interiorDefense": 35,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 50,
+      "steal": 30,
+      "block": 45,
+      "defensiveRebound": 55,
+      "offensiveRebound": 55,
+      "speed": 54,
+      "acceleration": 54,
+      "vertical": 65,
+      "strength": 55,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "83": {
+      "shotThree": 44,
+      "shotMid": 44,
+      "shotClose": 70,
+      "drivingLayup": 59,
+      "standingDunk": 57,
+      "drivingDunk": 54,
+      "ballHandling": 42,
+      "speedWithBall": 44,
+      "passingVision": 44,
+      "passingIQ": 44,
+      "passingAccuracy": 44,
+      "perimeterDefense": 41,
+      "interiorDefense": 36,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 48,
+      "steal": 29,
+      "block": 47,
+      "defensiveRebound": 57,
+      "offensiveRebound": 57,
+      "speed": 46,
+      "acceleration": 46,
+      "vertical": 64,
+      "strength": 56,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "84": {
+      "shotThree": 43,
+      "shotMid": 43,
+      "shotClose": 70,
+      "drivingLayup": 58,
+      "standingDunk": 59,
+      "drivingDunk": 50,
+      "ballHandling": 38,
+      "speedWithBall": 40,
+      "passingVision": 43,
+      "passingIQ": 43,
+      "passingAccuracy": 43,
+      "perimeterDefense": 37,
+      "interiorDefense": 37,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 46,
+      "steal": 28,
+      "block": 49,
+      "defensiveRebound": 59,
+      "offensiveRebound": 59,
+      "speed": 42,
+      "acceleration": 42,
+      "vertical": 63,
+      "strength": 57,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "85": {
+      "shotThree": 42,
+      "shotMid": 42,
+      "shotClose": 70,
+      "drivingLayup": 57,
+      "standingDunk": 61,
+      "drivingDunk": 46,
+      "ballHandling": 34,
+      "speedWithBall": 35,
+      "passingVision": 42,
+      "passingIQ": 42,
+      "passingAccuracy": 42,
+      "perimeterDefense": 33,
+      "interiorDefense": 38,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 44,
+      "steal": 27,
+      "block": 51,
+      "defensiveRebound": 61,
+      "offensiveRebound": 61,
+      "speed": 38,
+      "acceleration": 38,
+      "vertical": 62,
+      "strength": 58,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    },
+    "86": {
+      "shotThree": 41,
+      "shotMid": 41,
+      "shotClose": 70,
+      "drivingLayup": 56,
+      "standingDunk": 63,
+      "drivingDunk": 42,
+      "ballHandling": 30,
+      "speedWithBall": 30,
+      "passingVision": 41,
+      "passingIQ": 41,
+      "passingAccuracy": 41,
+      "perimeterDefense": 29,
+      "interiorDefense": 39,
+      "helpDefenseIQ": 40,
+      "lateralQuickness": 42,
+      "steal": 26,
+      "block": 53,
+      "defensiveRebound": 63,
+      "offensiveRebound": 63,
+      "speed": 34,
+      "acceleration": 34,
+      "vertical": 61,
+      "strength": 59,
+      "shotIQ": 70,
+      "drawFoul": 70,
+      "freeThrow": 65,
+      "postMoves": 50,
+      "postFade": 65,
+      "postHook": 65,
+      "passPerception": 70,
+      "hustle": 70,
+      "stamina": 70,
+      "offensiveConsistency": 70,
+      "defensiveConsistency": 70,
+      "hands": 85
+    }
+  },
+  "positions": [
+    "PG",
+    "SG",
+    "SF",
+    "PF",
+    "C"
+  ],
+  "limits": {
+    "maxPoints": 50,
+    "maxPerCategory": 20,
+    "attrFloor": 25,
+    "attrCap": 99,
+    "minHeight": 67,
+    "maxHeight": 86,
+    "minWeight": 160,
+    "maxWeight": 320,
+    "minWingspan": 67,
+    "maxWingspan": 100
+  },
+  "rating": {
+    "attrScale": 1020,
+    "badgeMax": 60,
+    "badgeDivisor": 12,
+    "badgePoints": {
+      "hof": 40,
+      "gold": 20,
+      "silver": 10,
+      "bronze": 5
+    },
+    "buckets": [
+      {
+        "letter": "F",
+        "lo": 0,
+        "hi": 300,
+        "color": "bronze"
+      },
+      {
+        "letter": "D",
+        "lo": 300,
+        "hi": 450,
+        "color": "bronze"
+      },
+      {
+        "letter": "C",
+        "lo": 450,
+        "hi": 650,
+        "color": "bronze"
+      },
+      {
+        "letter": "B",
+        "lo": 650,
+        "hi": 800,
+        "color": "silver"
+      },
+      {
+        "letter": "A",
+        "lo": 800,
+        "hi": 900,
+        "color": "gold"
+      },
+      {
+        "letter": "S",
+        "lo": 900,
+        "hi": 1001,
+        "color": "hof"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "manifestVersion": 1,
+  "name": "synergy2k-community",
+  "games": [
+    {
+      "key": "2k22",
+      "name": "NBA 2K22",
+      "schemaVersion": 1,
+      "attributes": 35,
+      "badges": 75,
+      "files": {
+        "schema": {
+          "path": "2k22/schema.json",
+          "hash": "sha256-8482a79e7242b44874715680e8ed1b32ccae51234edb645eda1d9ea8fe6493dd"
+        },
+        "rosters": [
+          {
+            "id": "2k22-launch",
+            "name": "Launch Roster",
+            "players": 556,
+            "path": "2k22/rosters/launch.json",
+            "hash": "sha256-569eddb3969ee71c5c126fdbcea45de63a9b2cb097120e864a3c23e5a103a7c6"
+          }
+        ]
+      }
+    },
+    {
+      "key": "2k26",
+      "name": "NBA 2K26",
+      "schemaVersion": 1,
+      "attributes": 35,
+      "badges": 40,
+      "files": {
+        "schema": {
+          "path": "2k26/schema.json",
+          "hash": "sha256-ff65aaf8d593866f6f8715676021f8e1de0c1ddde8a115a3f2e3edcd73976f96"
+        },
+        "rosters": [
+          {
+            "id": "2k26-launch",
+            "name": "Current Roster",
+            "players": 534,
+            "path": "2k26/rosters/launch.json",
+            "hash": "sha256-588b818b0db17352d8525b1fa54a19b170099082a8dd166be9dd91a69126fa89"
+          }
+        ]
+      }
+    }
+  ]
+}
