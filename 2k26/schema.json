@@ -250,22 +250,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "defensiveRebound",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "defensiveRebound",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "defensiveRebound",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "defensiveRebound",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -277,22 +297,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passIq",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passIq",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passIq",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passIq",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -304,22 +344,58 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "layup",
+              "min": 60
+            },
+            {
+              "attributeKey": "strength",
+              "min": 40
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "layup",
+              "min": 70
+            },
+            {
+              "attributeKey": "strength",
+              "min": 50
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "layup",
+              "min": 80
+            },
+            {
+              "attributeKey": "strength",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "layup",
+              "min": 90
+            },
+            {
+              "attributeKey": "strength",
+              "min": 70
+            }
+          ]
         }
       ]
     },
@@ -331,22 +407,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "vertical",
+              "min": 50
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "vertical",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "vertical",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "vertical",
+              "min": 80
+            }
+          ]
         }
       ]
     },
@@ -358,22 +454,58 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "defensiveRebound",
+              "min": 60
+            },
+            {
+              "attributeKey": "offensiveRebound",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "defensiveRebound",
+              "min": 70
+            },
+            {
+              "attributeKey": "offensiveRebound",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "defensiveRebound",
+              "min": 80
+            },
+            {
+              "attributeKey": "offensiveRebound",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "defensiveRebound",
+              "min": 90
+            },
+            {
+              "attributeKey": "offensiveRebound",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -385,22 +517,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "midRangeShot",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "midRangeShot",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "midRangeShot",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "midRangeShot",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -412,22 +564,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "speed",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "speed",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "speed",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "speed",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -439,22 +611,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passVision",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passVision",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passVision",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passVision",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -466,22 +658,58 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "drivingDunk",
+              "min": 60
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 50
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "drivingDunk",
+              "min": 70
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "drivingDunk",
+              "min": 80
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "drivingDunk",
+              "min": 90
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 80
+            }
+          ]
         }
       ]
     },
@@ -493,22 +721,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -520,22 +768,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -547,22 +815,58 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 60
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 50
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 70
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 80
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 90
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 80
+            }
+          ]
         }
       ]
     },
@@ -574,22 +878,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "layup",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "layup",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "layup",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "layup",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -601,22 +925,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "closeShot",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "closeShot",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "closeShot",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "closeShot",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -628,22 +972,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "drivingDunk",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "drivingDunk",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "drivingDunk",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "drivingDunk",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -655,22 +1019,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -682,22 +1066,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -709,22 +1113,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -736,22 +1160,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "layup",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "layup",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "layup",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "layup",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -763,22 +1207,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "steal",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "steal",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "steal",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "steal",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -790,22 +1254,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passPerception",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passPerception",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passPerception",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "passPerception",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -817,22 +1301,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -844,22 +1348,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -871,22 +1395,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "threePointShot",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "threePointShot",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "threePointShot",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "threePointShot",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -898,22 +1442,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "threePointShot",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "threePointShot",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "threePointShot",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "threePointShot",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -925,22 +1489,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "speedWithBall",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "speedWithBall",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "speedWithBall",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "speedWithBall",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -952,22 +1536,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "midRangeShot",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "midRangeShot",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "midRangeShot",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "midRangeShot",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -979,22 +1583,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -1006,22 +1630,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -1033,22 +1677,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "threePointShot",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "threePointShot",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "threePointShot",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "threePointShot",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -1060,22 +1724,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -1087,22 +1771,58 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "interiorDefense",
+              "min": 60
+            },
+            {
+              "attributeKey": "strength",
+              "min": 40
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "interiorDefense",
+              "min": 70
+            },
+            {
+              "attributeKey": "strength",
+              "min": 50
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "interiorDefense",
+              "min": 80
+            },
+            {
+              "attributeKey": "strength",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "interiorDefense",
+              "min": 90
+            },
+            {
+              "attributeKey": "strength",
+              "min": 70
+            }
+          ]
         }
       ]
     },
@@ -1114,22 +1834,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 40
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 50
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 70
+            }
+          ]
         }
       ]
     },
@@ -1141,22 +1881,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "interiorDefense",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "interiorDefense",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "interiorDefense",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "interiorDefense",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -1168,22 +1928,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "standingDunk",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "standingDunk",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "standingDunk",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "standingDunk",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -1195,22 +1975,58 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 60
+            },
+            {
+              "attributeKey": "strength",
+              "min": 40
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 70
+            },
+            {
+              "attributeKey": "strength",
+              "min": 50
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 80
+            },
+            {
+              "attributeKey": "strength",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 90
+            },
+            {
+              "attributeKey": "strength",
+              "min": 70
+            }
+          ]
         }
       ]
     },
@@ -1222,22 +2038,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "postHook",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "postHook",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "postHook",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "postHook",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -1249,22 +2085,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -1276,22 +2132,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "postFade",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "postFade",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "postFade",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "postFade",
+              "min": 90
+            }
+          ]
         }
       ]
     },
@@ -1303,22 +2179,42 @@
         {
           "tier": "bronze",
           "xp": 750,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 60
+            }
+          ]
         },
         {
           "tier": "silver",
           "xp": 1500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 70
+            }
+          ]
         },
         {
           "tier": "gold",
           "xp": 3000,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 80
+            }
+          ]
         },
         {
           "tier": "hof",
           "xp": 7500,
-          "requirements": []
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 90
+            }
+          ]
         }
       ]
     }
