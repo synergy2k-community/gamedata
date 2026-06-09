@@ -11,7 +11,7 @@
       "files": {
         "schema": {
           "path": "2k22/schema.json",
-          "hash": "sha256-8482a79e7242b44874715680e8ed1b32ccae51234edb645eda1d9ea8fe6493dd"
+          "hash": "sha256-7c89a2dcd841384dfe33af44e074a0c5ca47c5cef324f69c75ebd400e8840733"
         },
         "rosters": [
           {
@@ -19,7 +19,7 @@
             "name": "Launch Roster",
             "players": 556,
             "path": "2k22/rosters/launch.json",
-            "hash": "sha256-569eddb3969ee71c5c126fdbcea45de63a9b2cb097120e864a3c23e5a103a7c6"
+            "hash": "sha256-82cab8879acdcef5014d7343f0e7f8fb579fdd889278713781fd515e0508b401"
           }
         ]
       }
@@ -33,7 +33,7 @@
       "files": {
         "schema": {
           "path": "2k26/schema.json",
-          "hash": "sha256-c03a75a2d18f7d084105b249623969de61ff3a6ba47ff14c7f4f8e9da6dae114"
+          "hash": "sha256-17962037837d0024b02d91cc7fb91449c74ec3f6e78419c30810e232269ddde9"
         },
         "rosters": [
           {
@@ -41,7 +41,7 @@
             "name": "Current Roster",
             "players": 534,
             "path": "2k26/rosters/launch.json",
-            "hash": "sha256-588b818b0db17352d8525b1fa54a19b170099082a8dd166be9dd91a69126fa89"
+            "hash": "sha256-a6d27ff6da81144b759c79ffd6b79ff142b416cd302c3fb0affa5cbcfe08ccae"
           }
         ]
       }
