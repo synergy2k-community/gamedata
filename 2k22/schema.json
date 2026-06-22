@@ -4621,5 +4621,2206 @@
         "color": "hof"
       }
     ]
-  }
+  },
+  "achievements": [
+    {
+      "key": "career-points-bronze",
+      "name": "Bucket Getter",
+      "description": "Total points scored across a career.",
+      "tier": "bronze",
+      "category": "scoring",
+      "scope": "career",
+      "xp": 125,
+      "requirements": [
+        {
+          "stat": "pts",
+          "max": 2500,
+          "unit": "PTS"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-points-silver",
+      "name": "Five-Figure Scorer",
+      "description": "Total points scored across a career.",
+      "tier": "silver",
+      "category": "scoring",
+      "scope": "career",
+      "xp": 350,
+      "requirements": [
+        {
+          "stat": "pts",
+          "max": 10000,
+          "unit": "PTS"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-points-gold",
+      "name": "Twenty-K Club",
+      "description": "Total points scored across a career.",
+      "tier": "gold",
+      "category": "scoring",
+      "scope": "career",
+      "xp": 800,
+      "requirements": [
+        {
+          "stat": "pts",
+          "max": 20000,
+          "unit": "PTS"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-points-hof",
+      "name": "Scoring Immortal",
+      "description": "Total points scored across a career.",
+      "tier": "hof",
+      "category": "scoring",
+      "scope": "career",
+      "xp": 2200,
+      "requirements": [
+        {
+          "stat": "pts",
+          "max": 35000,
+          "unit": "PTS"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "game-points-bronze",
+      "name": "Heat Check",
+      "description": "Single-game scoring outburst.",
+      "tier": "bronze",
+      "category": "scoring",
+      "scope": "game",
+      "xp": 100,
+      "requirements": [
+        {
+          "stat": "pts",
+          "max": 30,
+          "unit": "PTS"
+        }
+      ]
+    },
+    {
+      "key": "game-points-silver",
+      "name": "Half-Century",
+      "description": "Single-game scoring outburst.",
+      "tier": "silver",
+      "category": "scoring",
+      "scope": "game",
+      "xp": 300,
+      "requirements": [
+        {
+          "stat": "pts",
+          "max": 50,
+          "unit": "PTS"
+        }
+      ]
+    },
+    {
+      "key": "game-points-gold",
+      "name": "Sixty Burger",
+      "description": "Single-game scoring outburst.",
+      "tier": "gold",
+      "category": "scoring",
+      "scope": "game",
+      "xp": 650,
+      "requirements": [
+        {
+          "stat": "pts",
+          "max": 60,
+          "unit": "PTS"
+        }
+      ]
+    },
+    {
+      "key": "game-points-hof",
+      "name": "Eighty-One",
+      "description": "Single-game scoring outburst.",
+      "tier": "hof",
+      "category": "scoring",
+      "scope": "game",
+      "xp": 1800,
+      "requirements": [
+        {
+          "stat": "pts",
+          "max": 81,
+          "unit": "PTS"
+        }
+      ]
+    },
+    {
+      "key": "season-ppg-bronze",
+      "name": "Go-To Guy",
+      "description": "Scoring average over a full season.",
+      "tier": "bronze",
+      "category": "scoring",
+      "scope": "season",
+      "xp": 250,
+      "requirements": [
+        {
+          "stat": "ppg",
+          "max": 20,
+          "unit": "PPG"
+        }
+      ]
+    },
+    {
+      "key": "season-ppg-silver",
+      "name": "Featured Scorer",
+      "description": "Scoring average over a full season.",
+      "tier": "silver",
+      "category": "scoring",
+      "scope": "season",
+      "xp": 450,
+      "requirements": [
+        {
+          "stat": "ppg",
+          "max": 25,
+          "unit": "PPG"
+        }
+      ]
+    },
+    {
+      "key": "season-ppg-gold",
+      "name": "Scoring Title",
+      "description": "Scoring average over a full season.",
+      "tier": "gold",
+      "category": "scoring",
+      "scope": "season",
+      "xp": 850,
+      "requirements": [
+        {
+          "stat": "ppg",
+          "max": 30,
+          "unit": "PPG"
+        }
+      ]
+    },
+    {
+      "key": "season-ppg-hof",
+      "name": "Inferno",
+      "description": "Scoring average over a full season.",
+      "tier": "hof",
+      "category": "scoring",
+      "scope": "season",
+      "xp": 2000,
+      "requirements": [
+        {
+          "stat": "ppg",
+          "max": 36,
+          "unit": "PPG"
+        }
+      ]
+    },
+    {
+      "key": "game-century",
+      "name": "Score 100+ in a single game.",
+      "description": "Triple Digits",
+      "tier": "hof",
+      "category": "scoring",
+      "scope": "game",
+      "xp": 2500,
+      "requirements": [
+        {
+          "stat": "pts",
+          "max": 100,
+          "unit": "PTS"
+        }
+      ]
+    },
+    {
+      "key": "game-50-loss",
+      "name": "No Help",
+      "description": "Drop 50+ in a game your team loses.",
+      "tier": "gold",
+      "category": "scoring",
+      "scope": "game",
+      "xp": 600,
+      "requirements": [
+        {
+          "stat": "feat50InLoss",
+          "max": 1
+        }
+      ]
+    },
+    {
+      "key": "career-assists-bronze",
+      "name": "Distributor",
+      "description": "Total assists across a career.",
+      "tier": "bronze",
+      "category": "playmaking",
+      "scope": "career",
+      "xp": 110,
+      "requirements": [
+        {
+          "stat": "ast",
+          "max": 1000,
+          "unit": "AST"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-assists-silver",
+      "name": "Floor General",
+      "description": "Total assists across a career.",
+      "tier": "silver",
+      "category": "playmaking",
+      "scope": "career",
+      "xp": 320,
+      "requirements": [
+        {
+          "stat": "ast",
+          "max": 4000,
+          "unit": "AST"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-assists-gold",
+      "name": "Maestro",
+      "description": "Total assists across a career.",
+      "tier": "gold",
+      "category": "playmaking",
+      "scope": "career",
+      "xp": 700,
+      "requirements": [
+        {
+          "stat": "ast",
+          "max": 8000,
+          "unit": "AST"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-assists-hof",
+      "name": "All-Time Setup",
+      "description": "Total assists across a career.",
+      "tier": "hof",
+      "category": "playmaking",
+      "scope": "career",
+      "xp": 1900,
+      "requirements": [
+        {
+          "stat": "ast",
+          "max": 15000,
+          "unit": "AST"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "game-assists-bronze",
+      "name": "Table Setter",
+      "description": "Single-game passing clinic.",
+      "tier": "bronze",
+      "category": "playmaking",
+      "scope": "game",
+      "xp": 100,
+      "requirements": [
+        {
+          "stat": "ast",
+          "max": 10,
+          "unit": "AST"
+        }
+      ]
+    },
+    {
+      "key": "game-assists-silver",
+      "name": "Dime Night",
+      "description": "Single-game passing clinic.",
+      "tier": "silver",
+      "category": "playmaking",
+      "scope": "game",
+      "xp": 280,
+      "requirements": [
+        {
+          "stat": "ast",
+          "max": 15,
+          "unit": "AST"
+        }
+      ]
+    },
+    {
+      "key": "game-assists-gold",
+      "name": "Assist Clinic",
+      "description": "Single-game passing clinic.",
+      "tier": "gold",
+      "category": "playmaking",
+      "scope": "game",
+      "xp": 600,
+      "requirements": [
+        {
+          "stat": "ast",
+          "max": 20,
+          "unit": "AST"
+        }
+      ]
+    },
+    {
+      "key": "game-assists-hof",
+      "name": "Conductor",
+      "description": "Single-game passing clinic.",
+      "tier": "hof",
+      "category": "playmaking",
+      "scope": "game",
+      "xp": 1500,
+      "requirements": [
+        {
+          "stat": "ast",
+          "max": 25,
+          "unit": "AST"
+        }
+      ]
+    },
+    {
+      "key": "season-apg-bronze",
+      "name": "Initiator",
+      "description": "Assist average over a full season.",
+      "tier": "bronze",
+      "category": "playmaking",
+      "scope": "season",
+      "xp": 250,
+      "requirements": [
+        {
+          "stat": "apg",
+          "max": 7,
+          "unit": "APG"
+        }
+      ]
+    },
+    {
+      "key": "season-apg-silver",
+      "name": "Quarterback",
+      "description": "Assist average over a full season.",
+      "tier": "silver",
+      "category": "playmaking",
+      "scope": "season",
+      "xp": 450,
+      "requirements": [
+        {
+          "stat": "apg",
+          "max": 10,
+          "unit": "APG"
+        }
+      ]
+    },
+    {
+      "key": "season-apg-gold",
+      "name": "Lead Guard",
+      "description": "Assist average over a full season.",
+      "tier": "gold",
+      "category": "playmaking",
+      "scope": "season",
+      "xp": 850,
+      "requirements": [
+        {
+          "stat": "apg",
+          "max": 12,
+          "unit": "APG"
+        }
+      ]
+    },
+    {
+      "key": "season-apg-hof",
+      "name": "The Maestro",
+      "description": "Assist average over a full season.",
+      "tier": "hof",
+      "category": "playmaking",
+      "scope": "season",
+      "xp": 2000,
+      "requirements": [
+        {
+          "stat": "apg",
+          "max": 15,
+          "unit": "APG"
+        }
+      ]
+    },
+    {
+      "key": "career-rebounds-bronze",
+      "name": "Glass Worker",
+      "description": "Total rebounds across a career.",
+      "tier": "bronze",
+      "category": "rebounding",
+      "scope": "career",
+      "xp": 110,
+      "requirements": [
+        {
+          "stat": "reb",
+          "max": 1000,
+          "unit": "REB"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-rebounds-silver",
+      "name": "Glass Cleaner",
+      "description": "Total rebounds across a career.",
+      "tier": "silver",
+      "category": "rebounding",
+      "scope": "career",
+      "xp": 320,
+      "requirements": [
+        {
+          "stat": "reb",
+          "max": 5000,
+          "unit": "REB"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-rebounds-gold",
+      "name": "Boardroom",
+      "description": "Total rebounds across a career.",
+      "tier": "gold",
+      "category": "rebounding",
+      "scope": "career",
+      "xp": 700,
+      "requirements": [
+        {
+          "stat": "reb",
+          "max": 10000,
+          "unit": "REB"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-rebounds-hof",
+      "name": "King of the Glass",
+      "description": "Total rebounds across a career.",
+      "tier": "hof",
+      "category": "rebounding",
+      "scope": "career",
+      "xp": 1900,
+      "requirements": [
+        {
+          "stat": "reb",
+          "max": 18000,
+          "unit": "REB"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "game-rebounds-bronze",
+      "name": "Crash the Glass",
+      "description": "Single-game board dominance.",
+      "tier": "bronze",
+      "category": "rebounding",
+      "scope": "game",
+      "xp": 100,
+      "requirements": [
+        {
+          "stat": "reb",
+          "max": 15,
+          "unit": "REB"
+        }
+      ]
+    },
+    {
+      "key": "game-rebounds-silver",
+      "name": "Vacuum",
+      "description": "Single-game board dominance.",
+      "tier": "silver",
+      "category": "rebounding",
+      "scope": "game",
+      "xp": 280,
+      "requirements": [
+        {
+          "stat": "reb",
+          "max": 20,
+          "unit": "REB"
+        }
+      ]
+    },
+    {
+      "key": "game-rebounds-gold",
+      "name": "Board Monster",
+      "description": "Single-game board dominance.",
+      "tier": "gold",
+      "category": "rebounding",
+      "scope": "game",
+      "xp": 600,
+      "requirements": [
+        {
+          "stat": "reb",
+          "max": 25,
+          "unit": "REB"
+        }
+      ]
+    },
+    {
+      "key": "game-rebounds-hof",
+      "name": "The Worm",
+      "description": "Single-game board dominance.",
+      "tier": "hof",
+      "category": "rebounding",
+      "scope": "game",
+      "xp": 1500,
+      "requirements": [
+        {
+          "stat": "reb",
+          "max": 30,
+          "unit": "REB"
+        }
+      ]
+    },
+    {
+      "key": "season-rpg-bronze",
+      "name": "Active",
+      "description": "Rebound average over a full season.",
+      "tier": "bronze",
+      "category": "rebounding",
+      "scope": "season",
+      "xp": 250,
+      "requirements": [
+        {
+          "stat": "rpg",
+          "max": 8,
+          "unit": "RPG"
+        }
+      ]
+    },
+    {
+      "key": "season-rpg-silver",
+      "name": "Rebound Hound",
+      "description": "Rebound average over a full season.",
+      "tier": "silver",
+      "category": "rebounding",
+      "scope": "season",
+      "xp": 450,
+      "requirements": [
+        {
+          "stat": "rpg",
+          "max": 12,
+          "unit": "RPG"
+        }
+      ]
+    },
+    {
+      "key": "season-rpg-gold",
+      "name": "Glass Eater",
+      "description": "Rebound average over a full season.",
+      "tier": "gold",
+      "category": "rebounding",
+      "scope": "season",
+      "xp": 850,
+      "requirements": [
+        {
+          "stat": "rpg",
+          "max": 15,
+          "unit": "RPG"
+        }
+      ]
+    },
+    {
+      "key": "season-rpg-hof",
+      "name": "Possessed",
+      "description": "Rebound average over a full season.",
+      "tier": "hof",
+      "category": "rebounding",
+      "scope": "season",
+      "xp": 2000,
+      "requirements": [
+        {
+          "stat": "rpg",
+          "max": 20,
+          "unit": "RPG"
+        }
+      ]
+    },
+    {
+      "key": "career-steals-bronze",
+      "name": "Quick Hands",
+      "description": "Total steals across a career.",
+      "tier": "bronze",
+      "category": "defense",
+      "scope": "career",
+      "xp": 110,
+      "requirements": [
+        {
+          "stat": "stl",
+          "max": 250,
+          "unit": "STL"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-steals-silver",
+      "name": "Ball Hawk",
+      "description": "Total steals across a career.",
+      "tier": "silver",
+      "category": "defense",
+      "scope": "career",
+      "xp": 300,
+      "requirements": [
+        {
+          "stat": "stl",
+          "max": 1000,
+          "unit": "STL"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-steals-gold",
+      "name": "Pickpocket",
+      "description": "Total steals across a career.",
+      "tier": "gold",
+      "category": "defense",
+      "scope": "career",
+      "xp": 650,
+      "requirements": [
+        {
+          "stat": "stl",
+          "max": 2000,
+          "unit": "STL"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-steals-hof",
+      "name": "Larceny, Inc.",
+      "description": "Total steals across a career.",
+      "tier": "hof",
+      "category": "defense",
+      "scope": "career",
+      "xp": 1800,
+      "requirements": [
+        {
+          "stat": "stl",
+          "max": 3000,
+          "unit": "STL"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-blocks-bronze",
+      "name": "Shot Contester",
+      "description": "Total blocks across a career.",
+      "tier": "bronze",
+      "category": "defense",
+      "scope": "career",
+      "xp": 110,
+      "requirements": [
+        {
+          "stat": "blk",
+          "max": 250,
+          "unit": "BLK"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-blocks-silver",
+      "name": "Rim Protector",
+      "description": "Total blocks across a career.",
+      "tier": "silver",
+      "category": "defense",
+      "scope": "career",
+      "xp": 300,
+      "requirements": [
+        {
+          "stat": "blk",
+          "max": 1000,
+          "unit": "BLK"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-blocks-gold",
+      "name": "Paint Patrol",
+      "description": "Total blocks across a career.",
+      "tier": "gold",
+      "category": "defense",
+      "scope": "career",
+      "xp": 650,
+      "requirements": [
+        {
+          "stat": "blk",
+          "max": 2000,
+          "unit": "BLK"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-blocks-hof",
+      "name": "The Great Wall",
+      "description": "Total blocks across a career.",
+      "tier": "hof",
+      "category": "defense",
+      "scope": "career",
+      "xp": 1800,
+      "requirements": [
+        {
+          "stat": "blk",
+          "max": 3500,
+          "unit": "BLK"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "game-steals-bronze",
+      "name": "Sticky Fingers",
+      "description": "Single-game ball pressure.",
+      "tier": "bronze",
+      "category": "defense",
+      "scope": "game",
+      "xp": 110,
+      "requirements": [
+        {
+          "stat": "stl",
+          "max": 4,
+          "unit": "STL"
+        }
+      ]
+    },
+    {
+      "key": "game-steals-silver",
+      "name": "Disruptor",
+      "description": "Single-game ball pressure.",
+      "tier": "silver",
+      "category": "defense",
+      "scope": "game",
+      "xp": 300,
+      "requirements": [
+        {
+          "stat": "stl",
+          "max": 6,
+          "unit": "STL"
+        }
+      ]
+    },
+    {
+      "key": "game-steals-gold",
+      "name": "Thief",
+      "description": "Single-game ball pressure.",
+      "tier": "gold",
+      "category": "defense",
+      "scope": "game",
+      "xp": 650,
+      "requirements": [
+        {
+          "stat": "stl",
+          "max": 8,
+          "unit": "STL"
+        }
+      ]
+    },
+    {
+      "key": "game-steals-hof",
+      "name": "Heist",
+      "description": "Single-game ball pressure.",
+      "tier": "hof",
+      "category": "defense",
+      "scope": "game",
+      "xp": 1600,
+      "requirements": [
+        {
+          "stat": "stl",
+          "max": 10,
+          "unit": "STL"
+        }
+      ]
+    },
+    {
+      "key": "game-blocks-bronze",
+      "name": "Rejection",
+      "description": "Single-game rim shutdown.",
+      "tier": "bronze",
+      "category": "defense",
+      "scope": "game",
+      "xp": 110,
+      "requirements": [
+        {
+          "stat": "blk",
+          "max": 4,
+          "unit": "BLK"
+        }
+      ]
+    },
+    {
+      "key": "game-blocks-silver",
+      "name": "Swat Team",
+      "description": "Single-game rim shutdown.",
+      "tier": "silver",
+      "category": "defense",
+      "scope": "game",
+      "xp": 300,
+      "requirements": [
+        {
+          "stat": "blk",
+          "max": 6,
+          "unit": "BLK"
+        }
+      ]
+    },
+    {
+      "key": "game-blocks-gold",
+      "name": "No-Fly Zone",
+      "description": "Single-game rim shutdown.",
+      "tier": "gold",
+      "category": "defense",
+      "scope": "game",
+      "xp": 650,
+      "requirements": [
+        {
+          "stat": "blk",
+          "max": 9,
+          "unit": "BLK"
+        }
+      ]
+    },
+    {
+      "key": "game-blocks-hof",
+      "name": "Get That Outta Here",
+      "description": "Single-game rim shutdown.",
+      "tier": "hof",
+      "category": "defense",
+      "scope": "game",
+      "xp": 1600,
+      "requirements": [
+        {
+          "stat": "blk",
+          "max": 12,
+          "unit": "BLK"
+        }
+      ]
+    },
+    {
+      "key": "season-spg-bronze",
+      "name": "Pesky",
+      "description": "Steal average over a full season.",
+      "tier": "bronze",
+      "category": "defense",
+      "scope": "season",
+      "xp": 250,
+      "requirements": [
+        {
+          "stat": "spg",
+          "max": 1.5,
+          "unit": "SPG"
+        }
+      ]
+    },
+    {
+      "key": "season-spg-silver",
+      "name": "Gambler",
+      "description": "Steal average over a full season.",
+      "tier": "silver",
+      "category": "defense",
+      "scope": "season",
+      "xp": 450,
+      "requirements": [
+        {
+          "stat": "spg",
+          "max": 2.0,
+          "unit": "SPG"
+        }
+      ]
+    },
+    {
+      "key": "season-spg-gold",
+      "name": "Menace",
+      "description": "Steal average over a full season.",
+      "tier": "gold",
+      "category": "defense",
+      "scope": "season",
+      "xp": 850,
+      "requirements": [
+        {
+          "stat": "spg",
+          "max": 2.5,
+          "unit": "SPG"
+        }
+      ]
+    },
+    {
+      "key": "season-spg-hof",
+      "name": "The Glove",
+      "description": "Steal average over a full season.",
+      "tier": "hof",
+      "category": "defense",
+      "scope": "season",
+      "xp": 2000,
+      "requirements": [
+        {
+          "stat": "spg",
+          "max": 3.0,
+          "unit": "SPG"
+        }
+      ]
+    },
+    {
+      "key": "season-bpg-bronze",
+      "name": "Deterrent",
+      "description": "Block average over a full season.",
+      "tier": "bronze",
+      "category": "defense",
+      "scope": "season",
+      "xp": 250,
+      "requirements": [
+        {
+          "stat": "bpg",
+          "max": 1.5,
+          "unit": "BPG"
+        }
+      ]
+    },
+    {
+      "key": "season-bpg-silver",
+      "name": "Eraser",
+      "description": "Block average over a full season.",
+      "tier": "silver",
+      "category": "defense",
+      "scope": "season",
+      "xp": 450,
+      "requirements": [
+        {
+          "stat": "bpg",
+          "max": 2.5,
+          "unit": "BPG"
+        }
+      ]
+    },
+    {
+      "key": "season-bpg-gold",
+      "name": "Goaltender",
+      "description": "Block average over a full season.",
+      "tier": "gold",
+      "category": "defense",
+      "scope": "season",
+      "xp": 850,
+      "requirements": [
+        {
+          "stat": "bpg",
+          "max": 3.5,
+          "unit": "BPG"
+        }
+      ]
+    },
+    {
+      "key": "season-bpg-hof",
+      "name": "Defensive Anchor",
+      "description": "Block average over a full season.",
+      "tier": "hof",
+      "category": "defense",
+      "scope": "season",
+      "xp": 2000,
+      "requirements": [
+        {
+          "stat": "bpg",
+          "max": 4.5,
+          "unit": "BPG"
+        }
+      ]
+    },
+    {
+      "key": "career-threes-bronze",
+      "name": "Range Finder",
+      "description": "Total three-pointers made.",
+      "tier": "bronze",
+      "category": "shooting",
+      "scope": "career",
+      "xp": 110,
+      "requirements": [
+        {
+          "stat": "tpm",
+          "max": 250,
+          "unit": "3PM"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-threes-silver",
+      "name": "Sharpshooter",
+      "description": "Total three-pointers made.",
+      "tier": "silver",
+      "category": "shooting",
+      "scope": "career",
+      "xp": 300,
+      "requirements": [
+        {
+          "stat": "tpm",
+          "max": 1000,
+          "unit": "3PM"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-threes-gold",
+      "name": "Splash",
+      "description": "Total three-pointers made.",
+      "tier": "gold",
+      "category": "shooting",
+      "scope": "career",
+      "xp": 650,
+      "requirements": [
+        {
+          "stat": "tpm",
+          "max": 2500,
+          "unit": "3PM"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-threes-hof",
+      "name": "Long-Range Legend",
+      "description": "Total three-pointers made.",
+      "tier": "hof",
+      "category": "shooting",
+      "scope": "career",
+      "xp": 1800,
+      "requirements": [
+        {
+          "stat": "tpm",
+          "max": 4000,
+          "unit": "3PM"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "game-threes-bronze",
+      "name": "Heating Up",
+      "description": "Single-game three-point barrage.",
+      "tier": "bronze",
+      "category": "shooting",
+      "scope": "game",
+      "xp": 100,
+      "requirements": [
+        {
+          "stat": "tpm",
+          "max": 5,
+          "unit": "3PM"
+        }
+      ]
+    },
+    {
+      "key": "game-threes-silver",
+      "name": "On Fire",
+      "description": "Single-game three-point barrage.",
+      "tier": "silver",
+      "category": "shooting",
+      "scope": "game",
+      "xp": 280,
+      "requirements": [
+        {
+          "stat": "tpm",
+          "max": 8,
+          "unit": "3PM"
+        }
+      ]
+    },
+    {
+      "key": "game-threes-gold",
+      "name": "Unconscious",
+      "description": "Single-game three-point barrage.",
+      "tier": "gold",
+      "category": "shooting",
+      "scope": "game",
+      "xp": 600,
+      "requirements": [
+        {
+          "stat": "tpm",
+          "max": 10,
+          "unit": "3PM"
+        }
+      ]
+    },
+    {
+      "key": "game-threes-hof",
+      "name": "From the Logo",
+      "description": "Single-game three-point barrage.",
+      "tier": "hof",
+      "category": "shooting",
+      "scope": "game",
+      "xp": 1500,
+      "requirements": [
+        {
+          "stat": "tpm",
+          "max": 14,
+          "unit": "3PM"
+        }
+      ]
+    },
+    {
+      "key": "season-fg50",
+      "name": "Shoot 50%+ from the field on volume.",
+      "description": "Efficient",
+      "tier": "silver",
+      "category": "shooting",
+      "scope": "season",
+      "xp": 400,
+      "requirements": [
+        {
+          "stat": "fgPct",
+          "max": 50,
+          "unit": "FG%"
+        }
+      ]
+    },
+    {
+      "key": "season-3p40",
+      "name": "Shoot 40%+ from three on volume.",
+      "description": "Marksman",
+      "tier": "silver",
+      "category": "shooting",
+      "scope": "season",
+      "xp": 400,
+      "requirements": [
+        {
+          "stat": "tpPct",
+          "max": 40,
+          "unit": "3P%"
+        }
+      ]
+    },
+    {
+      "key": "season-ft90",
+      "name": "Shoot 90%+ from the line on volume.",
+      "description": "Automatic",
+      "tier": "silver",
+      "category": "shooting",
+      "scope": "season",
+      "xp": 350,
+      "requirements": [
+        {
+          "stat": "ftPct",
+          "max": 90,
+          "unit": "FT%"
+        }
+      ]
+    },
+    {
+      "key": "season-504090",
+      "name": "The Club",
+      "description": "Finish a season at 50/40/90 splits.",
+      "tier": "gold",
+      "category": "shooting",
+      "scope": "season",
+      "xp": 900,
+      "requirements": [
+        {
+          "stat": "feat504090",
+          "max": 1
+        }
+      ]
+    },
+    {
+      "key": "career-dd-bronze",
+      "name": "Steady",
+      "description": "10+ in two categories, totalled.",
+      "tier": "bronze",
+      "category": "all-around",
+      "scope": "career",
+      "xp": 120,
+      "requirements": [
+        {
+          "stat": "dd",
+          "max": 25,
+          "unit": "DD"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-dd-silver",
+      "name": "Nightly Double",
+      "description": "10+ in two categories, totalled.",
+      "tier": "silver",
+      "category": "all-around",
+      "scope": "career",
+      "xp": 320,
+      "requirements": [
+        {
+          "stat": "dd",
+          "max": 100,
+          "unit": "DD"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-dd-gold",
+      "name": "Double Machine",
+      "description": "10+ in two categories, totalled.",
+      "tier": "gold",
+      "category": "all-around",
+      "scope": "career",
+      "xp": 700,
+      "requirements": [
+        {
+          "stat": "dd",
+          "max": 300,
+          "unit": "DD"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-dd-hof",
+      "name": "Mr. Double-Double",
+      "description": "10+ in two categories, totalled.",
+      "tier": "hof",
+      "category": "all-around",
+      "scope": "career",
+      "xp": 1800,
+      "requirements": [
+        {
+          "stat": "dd",
+          "max": 600,
+          "unit": "DD"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-td-bronze",
+      "name": "Stat Stuffer",
+      "description": "10+ in three categories, totalled.",
+      "tier": "bronze",
+      "category": "all-around",
+      "scope": "career",
+      "xp": 150,
+      "requirements": [
+        {
+          "stat": "td",
+          "max": 5,
+          "unit": "TD"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-td-silver",
+      "name": "Triple Threat",
+      "description": "10+ in three categories, totalled.",
+      "tier": "silver",
+      "category": "all-around",
+      "scope": "career",
+      "xp": 400,
+      "requirements": [
+        {
+          "stat": "td",
+          "max": 25,
+          "unit": "TD"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-td-gold",
+      "name": "Triple-Double Machine",
+      "description": "10+ in three categories, totalled.",
+      "tier": "gold",
+      "category": "all-around",
+      "scope": "career",
+      "xp": 900,
+      "requirements": [
+        {
+          "stat": "td",
+          "max": 75,
+          "unit": "TD"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-td-hof",
+      "name": "Triple-Double King",
+      "description": "10+ in three categories, totalled.",
+      "tier": "hof",
+      "category": "all-around",
+      "scope": "career",
+      "xp": 2200,
+      "requirements": [
+        {
+          "stat": "td",
+          "max": 150,
+          "unit": "TD"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "game-td",
+      "name": "Record your first triple-double.",
+      "description": "Triple Trouble",
+      "tier": "silver",
+      "category": "all-around",
+      "scope": "career",
+      "xp": 300,
+      "requirements": [
+        {
+          "stat": "td",
+          "max": 1,
+          "unit": "TD"
+        }
+      ]
+    },
+    {
+      "key": "season-td-avg",
+      "name": "Mr. Triple-Double",
+      "description": "Average a triple-double over a season.",
+      "tier": "hof",
+      "category": "all-around",
+      "scope": "season",
+      "xp": 2500,
+      "requirements": [
+        {
+          "stat": "featTdAvg",
+          "max": 1
+        }
+      ]
+    },
+    {
+      "key": "game-5x5",
+      "name": "The Complete Package",
+      "description": "5+ in points, rebounds, assists, steals, blocks.",
+      "tier": "gold",
+      "category": "all-around",
+      "scope": "game",
+      "xp": 800,
+      "requirements": [
+        {
+          "stat": "feat5x5",
+          "max": 1
+        }
+      ]
+    },
+    {
+      "key": "game-30-20",
+      "name": "Old-School Big",
+      "description": "30+ points and 20+ rebounds in a game.",
+      "tier": "gold",
+      "category": "all-around",
+      "scope": "game",
+      "xp": 700,
+      "requirements": [
+        {
+          "stat": "feat3020",
+          "max": 1
+        }
+      ]
+    },
+    {
+      "key": "game-quad",
+      "name": "Dreamland",
+      "description": "10+ in four categories in one game.",
+      "tier": "hof",
+      "category": "all-around",
+      "scope": "game",
+      "xp": 2000,
+      "requirements": [
+        {
+          "stat": "featQuad",
+          "max": 1
+        }
+      ]
+    },
+    {
+      "key": "game-quint",
+      "name": "The Unicorn",
+      "description": "10+ in all five categories in one game.",
+      "tier": "hof",
+      "category": "all-around",
+      "scope": "game",
+      "xp": 2500,
+      "requirements": [
+        {
+          "stat": "featQuint",
+          "max": 1
+        }
+      ]
+    },
+    {
+      "key": "career-games-bronze",
+      "name": "Full Rookie Year",
+      "description": "Career games logged.",
+      "tier": "bronze",
+      "category": "longevity",
+      "scope": "career",
+      "xp": 100,
+      "requirements": [
+        {
+          "stat": "gp",
+          "max": 82,
+          "unit": "GP"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-games-silver",
+      "name": "Seasoned Vet",
+      "description": "Career games logged.",
+      "tier": "silver",
+      "category": "longevity",
+      "scope": "career",
+      "xp": 280,
+      "requirements": [
+        {
+          "stat": "gp",
+          "max": 410,
+          "unit": "GP"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-games-gold",
+      "name": "Iron Man",
+      "description": "Career games logged.",
+      "tier": "gold",
+      "category": "longevity",
+      "scope": "career",
+      "xp": 600,
+      "requirements": [
+        {
+          "stat": "gp",
+          "max": 820,
+          "unit": "GP"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "career-games-hof",
+      "name": "Ageless",
+      "description": "Career games logged.",
+      "tier": "hof",
+      "category": "longevity",
+      "scope": "career",
+      "xp": 1500,
+      "requirements": [
+        {
+          "stat": "gp",
+          "max": 1230,
+          "unit": "GP"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "season-games-70",
+      "name": "Play 70+ games in a single season.",
+      "description": "Always Available",
+      "tier": "bronze",
+      "category": "longevity",
+      "scope": "season",
+      "xp": 150,
+      "requirements": [
+        {
+          "stat": "gamesPlayed",
+          "max": 70,
+          "unit": "GP"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "game-foul-out",
+      "name": "Whistle Magnet",
+      "description": "Foul out of a game (6 personals).",
+      "tier": "bronze",
+      "category": "longevity",
+      "scope": "game",
+      "xp": 100,
+      "requirements": [
+        {
+          "stat": "featFoulOut",
+          "max": 1
+        }
+      ]
+    },
+    {
+      "key": "season-wins-bronze",
+      "name": ".500 or Better",
+      "description": "Team wins logged in a season.",
+      "tier": "bronze",
+      "category": "wins",
+      "scope": "season",
+      "xp": 250,
+      "requirements": [
+        {
+          "stat": "wins",
+          "max": 41,
+          "unit": "W"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "season-wins-silver",
+      "name": "Contender",
+      "description": "Team wins logged in a season.",
+      "tier": "silver",
+      "category": "wins",
+      "scope": "season",
+      "xp": 450,
+      "requirements": [
+        {
+          "stat": "wins",
+          "max": 50,
+          "unit": "W"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "season-wins-gold",
+      "name": "Juggernaut",
+      "description": "Team wins logged in a season.",
+      "tier": "gold",
+      "category": "wins",
+      "scope": "season",
+      "xp": 850,
+      "requirements": [
+        {
+          "stat": "wins",
+          "max": 60,
+          "unit": "W"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "season-wins-hof",
+      "name": "Seventy-Win Season",
+      "description": "Team wins logged in a season.",
+      "tier": "hof",
+      "category": "wins",
+      "scope": "season",
+      "xp": 2000,
+      "requirements": [
+        {
+          "stat": "wins",
+          "max": 70,
+          "unit": "W"
+        }
+      ],
+      "scale": true
+    },
+    {
+      "key": "win-streak-bronze",
+      "name": "Rolling",
+      "description": "Longest consecutive wins.",
+      "tier": "bronze",
+      "category": "wins",
+      "scope": "season",
+      "xp": 150,
+      "requirements": [
+        {
+          "stat": "winStreak",
+          "max": 5,
+          "unit": "W"
+        }
+      ]
+    },
+    {
+      "key": "win-streak-silver",
+      "name": "On a Heater",
+      "description": "Longest consecutive wins.",
+      "tier": "silver",
+      "category": "wins",
+      "scope": "season",
+      "xp": 350,
+      "requirements": [
+        {
+          "stat": "winStreak",
+          "max": 10,
+          "unit": "W"
+        }
+      ]
+    },
+    {
+      "key": "win-streak-gold",
+      "name": "Locomotive",
+      "description": "Longest consecutive wins.",
+      "tier": "gold",
+      "category": "wins",
+      "scope": "season",
+      "xp": 700,
+      "requirements": [
+        {
+          "stat": "winStreak",
+          "max": 15,
+          "unit": "W"
+        }
+      ]
+    },
+    {
+      "key": "win-streak-hof",
+      "name": "Untouchable",
+      "description": "Longest consecutive wins.",
+      "tier": "hof",
+      "category": "wins",
+      "scope": "season",
+      "xp": 1600,
+      "requirements": [
+        {
+          "stat": "winStreak",
+          "max": 20,
+          "unit": "W"
+        }
+      ]
+    },
+    {
+      "key": "mvp-silver",
+      "name": "MVP",
+      "description": "Regular-season MVPs won.",
+      "tier": "silver",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 500,
+      "requirements": [
+        {
+          "stat": "mvp",
+          "max": 1,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "mvp-gold",
+      "name": "Three-Time MVP",
+      "description": "Regular-season MVPs won.",
+      "tier": "gold",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 1100,
+      "requirements": [
+        {
+          "stat": "mvp",
+          "max": 3,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "mvp-hof",
+      "name": "Face of the League",
+      "description": "Regular-season MVPs won.",
+      "tier": "hof",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 2500,
+      "requirements": [
+        {
+          "stat": "mvp",
+          "max": 5,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "finals-mvp-silver",
+      "name": "Finals MVP",
+      "description": "Finals MVPs won.",
+      "tier": "silver",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 450,
+      "requirements": [
+        {
+          "stat": "finalsMvp",
+          "max": 1,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "finals-mvp-gold",
+      "name": "Mr. June",
+      "description": "Finals MVPs won.",
+      "tier": "gold",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 1000,
+      "requirements": [
+        {
+          "stat": "finalsMvp",
+          "max": 3,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "finals-mvp-hof",
+      "name": "Clutch Gene",
+      "description": "Finals MVPs won.",
+      "tier": "hof",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 2200,
+      "requirements": [
+        {
+          "stat": "finalsMvp",
+          "max": 6,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "dpoy-silver",
+      "name": "DPOY",
+      "description": "Defensive Player of the Year awards won.",
+      "tier": "silver",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 400,
+      "requirements": [
+        {
+          "stat": "dpoy",
+          "max": 1,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "dpoy-gold",
+      "name": "Anchor of the Year",
+      "description": "Defensive Player of the Year awards won.",
+      "tier": "gold",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 900,
+      "requirements": [
+        {
+          "stat": "dpoy",
+          "max": 3,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "dpoy-hof",
+      "name": "Defensive Dynasty",
+      "description": "Defensive Player of the Year awards won.",
+      "tier": "hof",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 2000,
+      "requirements": [
+        {
+          "stat": "dpoy",
+          "max": 5,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "all-star-bronze",
+      "name": "All-Star",
+      "description": "All-Star selections, totalled.",
+      "tier": "bronze",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 150,
+      "requirements": [
+        {
+          "stat": "allStar",
+          "max": 1,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "all-star-silver",
+      "name": "Perennial All-Star",
+      "description": "All-Star selections, totalled.",
+      "tier": "silver",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 450,
+      "requirements": [
+        {
+          "stat": "allStar",
+          "max": 5,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "all-star-gold",
+      "name": "Ten-Time All-Star",
+      "description": "All-Star selections, totalled.",
+      "tier": "gold",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 1000,
+      "requirements": [
+        {
+          "stat": "allStar",
+          "max": 10,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "all-star-hof",
+      "name": "All-Star Fixture",
+      "description": "All-Star selections, totalled.",
+      "tier": "hof",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 2200,
+      "requirements": [
+        {
+          "stat": "allStar",
+          "max": 15,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "all-league-bronze",
+      "name": "All-League",
+      "description": "All-League team selections, totalled.",
+      "tier": "bronze",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 150,
+      "requirements": [
+        {
+          "stat": "allNba",
+          "max": 1,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "all-league-silver",
+      "name": "First-Team Regular",
+      "description": "All-League team selections, totalled.",
+      "tier": "silver",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 500,
+      "requirements": [
+        {
+          "stat": "allNba",
+          "max": 5,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "all-league-gold",
+      "name": "Decade of Dominance",
+      "description": "All-League team selections, totalled.",
+      "tier": "gold",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 1100,
+      "requirements": [
+        {
+          "stat": "allNba",
+          "max": 10,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "all-league-hof",
+      "name": "All-Time Team",
+      "description": "All-League team selections, totalled.",
+      "tier": "hof",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 2400,
+      "requirements": [
+        {
+          "stat": "allNba",
+          "max": 15,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "award-roy",
+      "name": "Win Rookie of the Year.",
+      "description": "Rookie of the Year",
+      "tier": "silver",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 350,
+      "requirements": [
+        {
+          "stat": "roy",
+          "max": 1,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "award-sixth-man",
+      "name": "Win Sixth Man of the Year.",
+      "description": "Sixth Sense",
+      "tier": "silver",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 300,
+      "requirements": [
+        {
+          "stat": "sixthMan",
+          "max": 1,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "award-mip",
+      "name": "Win Most Improved Player.",
+      "description": "Glow-Up",
+      "tier": "silver",
+      "category": "accolades",
+      "scope": "award",
+      "xp": 300,
+      "requirements": [
+        {
+          "stat": "mip",
+          "max": 1,
+          "unit": "\u00d7"
+        }
+      ]
+    },
+    {
+      "key": "championships-bronze",
+      "name": "Champion",
+      "description": "Titles won (champion seasons).",
+      "tier": "bronze",
+      "category": "playoffs",
+      "scope": "award",
+      "xp": 150,
+      "requirements": [
+        {
+          "stat": "rings",
+          "max": 1,
+          "unit": "rings"
+        }
+      ]
+    },
+    {
+      "key": "championships-silver",
+      "name": "Three-Peat",
+      "description": "Titles won (champion seasons).",
+      "tier": "silver",
+      "category": "playoffs",
+      "scope": "award",
+      "xp": 450,
+      "requirements": [
+        {
+          "stat": "rings",
+          "max": 3,
+          "unit": "rings"
+        }
+      ]
+    },
+    {
+      "key": "championships-gold",
+      "name": "Dynasty",
+      "description": "Titles won (champion seasons).",
+      "tier": "gold",
+      "category": "playoffs",
+      "scope": "award",
+      "xp": 1000,
+      "requirements": [
+        {
+          "stat": "rings",
+          "max": 6,
+          "unit": "rings"
+        }
+      ]
+    },
+    {
+      "key": "championships-hof",
+      "name": "Mr. Eleven Rings",
+      "description": "Titles won (champion seasons).",
+      "tier": "hof",
+      "category": "playoffs",
+      "scope": "award",
+      "xp": 2500,
+      "requirements": [
+        {
+          "stat": "rings",
+          "max": 11,
+          "unit": "rings"
+        }
+      ]
+    },
+    {
+      "key": "playoff-conf-finals",
+      "name": "Reach the conference finals.",
+      "description": "Final Four",
+      "tier": "silver",
+      "category": "playoffs",
+      "scope": "award",
+      "xp": 350,
+      "requirements": [
+        {
+          "stat": "roundReached",
+          "max": 3
+        }
+      ]
+    },
+    {
+      "key": "playoff-finals",
+      "name": "Reach the Finals.",
+      "description": "On the Doorstep",
+      "tier": "gold",
+      "category": "playoffs",
+      "scope": "award",
+      "xp": 600,
+      "requirements": [
+        {
+          "stat": "roundReached",
+          "max": 4
+        }
+      ]
+    },
+    {
+      "key": "playoff-sweep",
+      "name": "Clean Sweep",
+      "description": "Win a playoff series 4-0.",
+      "tier": "silver",
+      "category": "playoffs",
+      "scope": "award",
+      "xp": 350,
+      "requirements": [
+        {
+          "stat": "featSweep",
+          "max": 1
+        }
+      ]
+    },
+    {
+      "key": "playoff-game7",
+      "name": "Win or Go Home",
+      "description": "Win a winner-take-all game 7.",
+      "tier": "silver",
+      "category": "playoffs",
+      "scope": "award",
+      "xp": 400,
+      "requirements": [
+        {
+          "stat": "featGame7Win",
+          "max": 1
+        }
+      ]
+    },
+    {
+      "key": "playoff-comeback-31",
+      "name": "Reverse the Curse",
+      "description": "Win a series after trailing 3-1.",
+      "tier": "gold",
+      "category": "playoffs",
+      "scope": "award",
+      "xp": 900,
+      "requirements": [
+        {
+          "stat": "featComeback31",
+          "max": 1
+        }
+      ]
+    },
+    {
+      "key": "playoff-comeback-30",
+      "name": "Making History",
+      "description": "Win a series after trailing 3-0.",
+      "tier": "hof",
+      "category": "playoffs",
+      "scope": "award",
+      "xp": 2000,
+      "requirements": [
+        {
+          "stat": "featComeback30",
+          "max": 1
+        }
+      ]
+    },
+    {
+      "key": "playoff-50",
+      "name": "Playoff Riser",
+      "description": "Score 50+ in a playoff game.",
+      "tier": "gold",
+      "category": "playoffs",
+      "scope": "award",
+      "xp": 700,
+      "requirements": [
+        {
+          "stat": "feat50Playoff",
+          "max": 1
+        }
+      ]
+    },
+    {
+      "key": "playoff-50-finals",
+      "name": "Finals Eruption",
+      "description": "Score 50+ in a Finals game.",
+      "tier": "hof",
+      "category": "playoffs",
+      "scope": "award",
+      "xp": 1500,
+      "requirements": [
+        {
+          "stat": "feat50Finals",
+          "max": 1
+        }
+      ]
+    },
+    {
+      "key": "playoff-finals-takeover",
+      "name": "June Takeover",
+      "description": "Average 30+ points across a Finals series.",
+      "tier": "gold",
+      "category": "playoffs",
+      "scope": "award",
+      "xp": 900,
+      "requirements": [
+        {
+          "stat": "featFinalsAvg30",
+          "max": 1
+        }
+      ]
+    },
+    {
+      "key": "playoff-perfect-run",
+      "name": "Flawless",
+      "description": "Sweep every round of a single playoff run.",
+      "tier": "hof",
+      "category": "playoffs",
+      "scope": "award",
+      "xp": 2500,
+      "requirements": [
+        {
+          "stat": "featPerfectRun",
+          "max": 1
+        }
+      ]
+    }
+  ]
 }

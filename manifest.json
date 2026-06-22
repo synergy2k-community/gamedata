@@ -11,7 +11,7 @@
       "files": {
         "schema": {
           "path": "2k22/schema.json",
-          "hash": "sha256-7c89a2dcd841384dfe33af44e074a0c5ca47c5cef324f69c75ebd400e8840733"
+          "hash": "sha256-75903139a90b3fdd4e21f622db4a5fab5cf920f4d03551b44da096ad05b77aff"
         },
         "rosters": [
           {
@@ -33,7 +33,7 @@
       "files": {
         "schema": {
           "path": "2k26/schema.json",
-          "hash": "sha256-17962037837d0024b02d91cc7fb91449c74ec3f6e78419c30810e232269ddde9"
+          "hash": "sha256-f02e5b8f56f2fff943b0b29109c66b9eff7607002bc54b31da3c9ef3ce4b931e"
         },
         "rosters": [
           {
