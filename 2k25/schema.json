@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "versionKey": "2k26",
-  "name": "NBA 2K26",
+  "versionKey": "2k25",
+  "name": "NBA 2K25",
   "provenance": "system",
   "categories": [
     {
@@ -273,289 +273,25 @@
   ],
   "badges": [
     {
-      "key": "boxoutBeast",
-      "name": "Boxout Beast",
-      "category": "rebounding",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 750,
-          "requirements": [
-            {
-              "attributeKey": "offensiveRebound",
-              "min": 55
-            },
-            {
-              "attributeKey": "defensiveRebound",
-              "min": 55
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 1500,
-          "requirements": [
-            {
-              "attributeKey": "offensiveRebound",
-              "min": 70
-            },
-            {
-              "attributeKey": "defensiveRebound",
-              "min": 70
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 3000,
-          "requirements": [
-            {
-              "attributeKey": "offensiveRebound",
-              "min": 85
-            },
-            {
-              "attributeKey": "defensiveRebound",
-              "min": 85
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 7500,
-          "requirements": [
-            {
-              "attributeKey": "offensiveRebound",
-              "min": 94
-            },
-            {
-              "attributeKey": "defensiveRebound",
-              "min": 94
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 18750,
-          "requirements": [
-            {
-              "attributeKey": "offensiveRebound",
-              "min": 98
-            },
-            {
-              "attributeKey": "defensiveRebound",
-              "min": 98
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "dimer",
-      "name": "Dimer",
-      "category": "playmaking",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 750,
-          "requirements": [
-            {
-              "attributeKey": "passAccuracy",
-              "min": 55
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 1500,
-          "requirements": [
-            {
-              "attributeKey": "passAccuracy",
-              "min": 71
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 3000,
-          "requirements": [
-            {
-              "attributeKey": "passAccuracy",
-              "min": 82
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 7500,
-          "requirements": [
-            {
-              "attributeKey": "passAccuracy",
-              "min": 92
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 18750,
-          "requirements": [
-            {
-              "attributeKey": "passAccuracy",
-              "min": 98
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "physicalFinisher",
-      "name": "Physical Finisher",
-      "category": "inside",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 750,
-          "requirements": [
-            {
-              "attributeKey": "strength",
-              "min": 60
-            },
-            {
-              "attributeKey": "layup",
-              "min": 70
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 1500,
-          "requirements": [
-            {
-              "attributeKey": "strength",
-              "min": 67
-            },
-            {
-              "attributeKey": "layup",
-              "min": 80
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 3000,
-          "requirements": [
-            {
-              "attributeKey": "strength",
-              "min": 75
-            },
-            {
-              "attributeKey": "layup",
-              "min": 90
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 7500,
-          "requirements": [
-            {
-              "attributeKey": "strength",
-              "min": 83
-            },
-            {
-              "attributeKey": "layup",
-              "min": 96
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 18750,
-          "requirements": [
-            {
-              "attributeKey": "strength",
-              "min": 97
-            },
-            {
-              "attributeKey": "layup",
-              "min": 97
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "pogoStick",
-      "name": "Pogo Stick",
-      "category": "athleticism",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 450,
-          "requirements": [
-            {
-              "attributeKey": "vertical",
-              "min": 63
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 900,
-          "requirements": [
-            {
-              "attributeKey": "vertical",
-              "min": 70
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 1800,
-          "requirements": [
-            {
-              "attributeKey": "vertical",
-              "min": 77
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 4500,
-          "requirements": [
-            {
-              "attributeKey": "vertical",
-              "min": 83
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 11250,
-          "requirements": [
-            {
-              "attributeKey": "vertical",
-              "min": 88
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "reboundChaser",
-      "name": "Rebound Chaser",
-      "category": "rebounding",
+      "key": "deadeye",
+      "name": "Deadeye",
+      "category": "outside",
       "tiers": [
         {
           "tier": "bronze",
           "xp": 1125,
           "requirements": [
             {
-              "attributeKey": "offensiveRebound",
-              "min": 60
-            },
-            {
-              "attributeKey": "defensiveRebound",
-              "min": 60
+              "anyOf": [
+                {
+                  "attributeKey": "threePointShot",
+                  "min": 73
+                },
+                {
+                  "attributeKey": "midRangeShot",
+                  "min": 73
+                }
+              ]
             }
           ]
         },
@@ -564,12 +300,16 @@
           "xp": 2250,
           "requirements": [
             {
-              "attributeKey": "offensiveRebound",
-              "min": 80
-            },
-            {
-              "attributeKey": "defensiveRebound",
-              "min": 80
+              "anyOf": [
+                {
+                  "attributeKey": "threePointShot",
+                  "min": 85
+                },
+                {
+                  "attributeKey": "midRangeShot",
+                  "min": 85
+                }
+              ]
             }
           ]
         },
@@ -578,11 +318,88 @@
           "xp": 4500,
           "requirements": [
             {
-              "attributeKey": "offensiveRebound",
-              "min": 92
-            },
+              "anyOf": [
+                {
+                  "attributeKey": "threePointShot",
+                  "min": 92
+                },
+                {
+                  "attributeKey": "midRangeShot",
+                  "min": 92
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 11250,
+          "requirements": [
             {
-              "attributeKey": "defensiveRebound",
+              "anyOf": [
+                {
+                  "attributeKey": "threePointShot",
+                  "min": 96
+                },
+                {
+                  "attributeKey": "midRangeShot",
+                  "min": 96
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 28125,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "threePointShot",
+                  "min": 99
+                },
+                {
+                  "attributeKey": "midRangeShot",
+                  "min": 99
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "limitlessRange",
+      "name": "Limitless Range",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1125,
+          "requirements": [
+            {
+              "attributeKey": "threePointShot",
+              "min": 73
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2250,
+          "requirements": [
+            {
+              "attributeKey": "threePointShot",
+              "min": 85
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4500,
+          "requirements": [
+            {
+              "attributeKey": "threePointShot",
               "min": 92
             }
           ]
@@ -592,11 +409,7 @@
           "xp": 11250,
           "requirements": [
             {
-              "attributeKey": "offensiveRebound",
-              "min": 96
-            },
-            {
-              "attributeKey": "defensiveRebound",
+              "attributeKey": "threePointShot",
               "min": 96
             }
           ]
@@ -606,12 +419,105 @@
           "xp": 28125,
           "requirements": [
             {
-              "attributeKey": "offensiveRebound",
+              "attributeKey": "threePointShot",
               "min": 99
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "miniMarksman",
+      "name": "Mini Marksman",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
             {
-              "attributeKey": "defensiveRebound",
-              "min": 99
+              "anyOf": [
+                {
+                  "attributeKey": "threePointShot",
+                  "min": 60
+                },
+                {
+                  "attributeKey": "midRangeShot",
+                  "min": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "threePointShot",
+                  "min": 74
+                },
+                {
+                  "attributeKey": "midRangeShot",
+                  "min": 74
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "threePointShot",
+                  "min": 86
+                },
+                {
+                  "attributeKey": "midRangeShot",
+                  "min": 86
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "threePointShot",
+                  "min": 94
+                },
+                {
+                  "attributeKey": "midRangeShot",
+                  "min": 94
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 18750,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "threePointShot",
+                  "min": 98
+                },
+                {
+                  "attributeKey": "midRangeShot",
+                  "min": 98
+                }
+              ]
             }
           ]
         }
@@ -624,19 +530,120 @@
       "tiers": [
         {
           "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "midRangeShot",
+                  "min": 60
+                },
+                {
+                  "attributeKey": "threePointShot",
+                  "min": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "midRangeShot",
+                  "min": 74
+                },
+                {
+                  "attributeKey": "threePointShot",
+                  "min": 74
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "midRangeShot",
+                  "min": 86
+                },
+                {
+                  "attributeKey": "threePointShot",
+                  "min": 86
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "midRangeShot",
+                  "min": 94
+                },
+                {
+                  "attributeKey": "threePointShot",
+                  "min": 94
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 18750,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "midRangeShot",
+                  "min": 98
+                },
+                {
+                  "attributeKey": "threePointShot",
+                  "min": 98
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "shiftyShooter",
+      "name": "Shifty Shooter",
+      "category": "outside",
+      "tiers": [
+        {
+          "tier": "bronze",
           "xp": 1125,
           "requirements": [
             {
               "anyOf": [
                 {
                   "attributeKey": "midRangeShot",
-                  "min": 65
+                  "min": 73
                 },
                 {
                   "attributeKey": "threePointShot",
-                  "min": 65
+                  "min": 73
                 }
               ]
+            },
+            {
+              "attributeKey": "agility",
+              "min": 62
             }
           ]
         },
@@ -648,13 +655,17 @@
               "anyOf": [
                 {
                   "attributeKey": "midRangeShot",
-                  "min": 78
+                  "min": 85
                 },
                 {
                   "attributeKey": "threePointShot",
-                  "min": 78
+                  "min": 85
                 }
               ]
+            },
+            {
+              "attributeKey": "agility",
+              "min": 72
             }
           ]
         },
@@ -666,13 +677,17 @@
               "anyOf": [
                 {
                   "attributeKey": "midRangeShot",
-                  "min": 89
+                  "min": 92
                 },
                 {
                   "attributeKey": "threePointShot",
-                  "min": 89
+                  "min": 92
                 }
               ]
+            },
+            {
+              "attributeKey": "agility",
+              "min": 82
             }
           ]
         },
@@ -684,13 +699,17 @@
               "anyOf": [
                 {
                   "attributeKey": "midRangeShot",
-                  "min": 93
+                  "min": 96
                 },
                 {
                   "attributeKey": "threePointShot",
-                  "min": 93
+                  "min": 96
                 }
               ]
+            },
+            {
+              "attributeKey": "agility",
+              "min": 90
             }
           ]
         },
@@ -702,147 +721,17 @@
               "anyOf": [
                 {
                   "attributeKey": "midRangeShot",
-                  "min": 98
+                  "min": 99
                 },
                 {
                   "attributeKey": "threePointShot",
-                  "min": 98
+                  "min": 99
                 }
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "slipperyOffBall",
-      "name": "Slippery Off-Ball",
-      "category": "outside",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 450,
-          "requirements": [
-            {
-              "attributeKey": "speed",
-              "min": 57
             },
             {
               "attributeKey": "agility",
-              "min": 57
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 900,
-          "requirements": [
-            {
-              "attributeKey": "speed",
-              "min": 73
-            },
-            {
-              "attributeKey": "agility",
-              "min": 65
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 1800,
-          "requirements": [
-            {
-              "attributeKey": "speed",
-              "min": 85
-            },
-            {
-              "attributeKey": "agility",
-              "min": 77
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 4500,
-          "requirements": [
-            {
-              "attributeKey": "speed",
-              "min": 92
-            },
-            {
-              "attributeKey": "agility",
-              "min": 88
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 11250,
-          "requirements": [
-            {
-              "attributeKey": "speed",
-              "min": 99
-            },
-            {
-              "attributeKey": "agility",
-              "min": 96
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "versatileVisionary",
-      "name": "Versatile Visionary",
-      "category": "playmaking",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 450,
-          "requirements": [
-            {
-              "attributeKey": "passAccuracy",
-              "min": 70
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 900,
-          "requirements": [
-            {
-              "attributeKey": "passAccuracy",
-              "min": 76
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 1800,
-          "requirements": [
-            {
-              "attributeKey": "passAccuracy",
-              "min": 84
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 4500,
-          "requirements": [
-            {
-              "attributeKey": "passAccuracy",
               "min": 95
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 11250,
-          "requirements": [
-            {
-              "attributeKey": "passAccuracy",
-              "min": 99
             }
           ]
         }
@@ -855,17 +744,154 @@
       "tiers": [
         {
           "tier": "bronze",
-          "xp": 450,
+          "xp": 1125,
           "requirements": [
             {
               "anyOf": [
                 {
+                  "attributeKey": "layup",
+                  "min": 73
+                },
+                {
                   "attributeKey": "drivingDunk",
-                  "min": 60
+                  "min": 73
                 },
                 {
                   "attributeKey": "standingDunk",
-                  "min": 64
+                  "min": 73
+                }
+              ]
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 62
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2250,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "layup",
+                  "min": 85
+                },
+                {
+                  "attributeKey": "drivingDunk",
+                  "min": 85
+                },
+                {
+                  "attributeKey": "standingDunk",
+                  "min": 85
+                }
+              ]
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 72
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4500,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "layup",
+                  "min": 92
+                },
+                {
+                  "attributeKey": "drivingDunk",
+                  "min": 92
+                },
+                {
+                  "attributeKey": "standingDunk",
+                  "min": 92
+                }
+              ]
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 82
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 11250,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "layup",
+                  "min": 96
+                },
+                {
+                  "attributeKey": "drivingDunk",
+                  "min": 96
+                },
+                {
+                  "attributeKey": "standingDunk",
+                  "min": 96
+                }
+              ]
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 90
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 28125,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "layup",
+                  "min": 99
+                },
+                {
+                  "attributeKey": "drivingDunk",
+                  "min": 99
+                },
+                {
+                  "attributeKey": "standingDunk",
+                  "min": 99
+                }
+              ]
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "floatGame",
+      "name": "Float Game",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "closeShot",
+                  "min": 60
+                },
+                {
+                  "attributeKey": "layup",
+                  "min": 60
                 }
               ]
             }
@@ -873,17 +899,17 @@
         },
         {
           "tier": "silver",
-          "xp": 900,
+          "xp": 1500,
           "requirements": [
             {
               "anyOf": [
                 {
-                  "attributeKey": "drivingDunk",
-                  "min": 70
+                  "attributeKey": "closeShot",
+                  "min": 74
                 },
                 {
-                  "attributeKey": "standingDunk",
-                  "min": 75
+                  "attributeKey": "layup",
+                  "min": 74
                 }
               ]
             }
@@ -891,17 +917,17 @@
         },
         {
           "tier": "gold",
-          "xp": 1800,
+          "xp": 3000,
           "requirements": [
             {
               "anyOf": [
                 {
-                  "attributeKey": "drivingDunk",
-                  "min": 80
+                  "attributeKey": "closeShot",
+                  "min": 86
                 },
                 {
-                  "attributeKey": "standingDunk",
-                  "min": 84
+                  "attributeKey": "layup",
+                  "min": 86
                 }
               ]
             }
@@ -909,17 +935,17 @@
         },
         {
           "tier": "hof",
-          "xp": 4500,
+          "xp": 7500,
           "requirements": [
             {
               "anyOf": [
                 {
-                  "attributeKey": "drivingDunk",
-                  "min": 89
+                  "attributeKey": "closeShot",
+                  "min": 94
                 },
                 {
-                  "attributeKey": "standingDunk",
-                  "min": 92
+                  "attributeKey": "layup",
+                  "min": 94
                 }
               ]
             }
@@ -927,16 +953,16 @@
         },
         {
           "tier": "legend",
-          "xp": 11250,
+          "xp": 18750,
           "requirements": [
             {
               "anyOf": [
                 {
-                  "attributeKey": "drivingDunk",
-                  "min": 97
+                  "attributeKey": "closeShot",
+                  "min": 98
                 },
                 {
-                  "attributeKey": "standingDunk",
+                  "attributeKey": "layup",
                   "min": 98
                 }
               ]
@@ -946,17 +972,25 @@
       ]
     },
     {
-      "key": "bailOut",
-      "name": "Bail Out",
-      "category": "playmaking",
+      "key": "hookSpecialist",
+      "name": "Hook Specialist",
+      "category": "inside",
       "tiers": [
         {
           "tier": "bronze",
           "xp": 750,
           "requirements": [
             {
-              "attributeKey": "passAccuracy",
-              "min": 85
+              "anyOf": [
+                {
+                  "attributeKey": "closeShot",
+                  "min": 60
+                },
+                {
+                  "attributeKey": "postControl",
+                  "min": 60
+                }
+              ]
             }
           ]
         },
@@ -965,8 +999,16 @@
           "xp": 1500,
           "requirements": [
             {
-              "attributeKey": "passAccuracy",
-              "min": 91
+              "anyOf": [
+                {
+                  "attributeKey": "closeShot",
+                  "min": 74
+                },
+                {
+                  "attributeKey": "postControl",
+                  "min": 74
+                }
+              ]
             }
           ]
         },
@@ -975,8 +1017,16 @@
           "xp": 3000,
           "requirements": [
             {
-              "attributeKey": "passAccuracy",
-              "min": 94
+              "anyOf": [
+                {
+                  "attributeKey": "closeShot",
+                  "min": 86
+                },
+                {
+                  "attributeKey": "postControl",
+                  "min": 86
+                }
+              ]
             }
           ]
         },
@@ -985,8 +1035,16 @@
           "xp": 7500,
           "requirements": [
             {
-              "attributeKey": "passAccuracy",
-              "min": 96
+              "anyOf": [
+                {
+                  "attributeKey": "closeShot",
+                  "min": 94
+                },
+                {
+                  "attributeKey": "postControl",
+                  "min": 94
+                }
+              ]
             }
           ]
         },
@@ -995,142 +1053,16 @@
           "xp": 18750,
           "requirements": [
             {
-              "attributeKey": "passAccuracy",
-              "min": 99
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "breakStarter",
-      "name": "Break Starter",
-      "category": "playmaking",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 450,
-          "requirements": [
-            {
-              "attributeKey": "passAccuracy",
-              "min": 65
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 900,
-          "requirements": [
-            {
-              "attributeKey": "passAccuracy",
-              "min": 75
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 1800,
-          "requirements": [
-            {
-              "attributeKey": "passAccuracy",
-              "min": 87
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 4500,
-          "requirements": [
-            {
-              "attributeKey": "passAccuracy",
-              "min": 93
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 11250,
-          "requirements": [
-            {
-              "attributeKey": "passAccuracy",
-              "min": 98
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "highFlyingDenier",
-      "name": "High-Flying Denier",
-      "category": "defending",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 750,
-          "requirements": [
-            {
-              "attributeKey": "block",
-              "min": 68
-            },
-            {
-              "attributeKey": "vertical",
-              "min": 60
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 1500,
-          "requirements": [
-            {
-              "attributeKey": "block",
-              "min": 78
-            },
-            {
-              "attributeKey": "vertical",
-              "min": 74
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 3000,
-          "requirements": [
-            {
-              "attributeKey": "block",
-              "min": 88
-            },
-            {
-              "attributeKey": "vertical",
-              "min": 80
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 7500,
-          "requirements": [
-            {
-              "attributeKey": "block",
-              "min": 92
-            },
-            {
-              "attributeKey": "vertical",
-              "min": 83
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 18750,
-          "requirements": [
-            {
-              "attributeKey": "block",
-              "min": 99
-            },
-            {
-              "attributeKey": "vertical",
-              "min": 85
+              "anyOf": [
+                {
+                  "attributeKey": "closeShot",
+                  "min": 98
+                },
+                {
+                  "attributeKey": "postControl",
+                  "min": 98
+                }
+              ]
             }
           ]
         }
@@ -1143,17 +1075,17 @@
       "tiers": [
         {
           "tier": "bronze",
-          "xp": 750,
+          "xp": 1125,
           "requirements": [
             {
               "attributeKey": "layup",
-              "min": 75
+              "min": 73
             }
           ]
         },
         {
           "tier": "silver",
-          "xp": 1500,
+          "xp": 2250,
           "requirements": [
             {
               "attributeKey": "layup",
@@ -1163,27 +1095,27 @@
         },
         {
           "tier": "gold",
-          "xp": 3000,
+          "xp": 4500,
           "requirements": [
             {
               "attributeKey": "layup",
-              "min": 93
+              "min": 92
             }
           ]
         },
         {
           "tier": "hof",
-          "xp": 7500,
+          "xp": 11250,
           "requirements": [
             {
               "attributeKey": "layup",
-              "min": 97
+              "min": 96
             }
           ]
         },
         {
           "tier": "legend",
-          "xp": 18750,
+          "xp": 28125,
           "requirements": [
             {
               "attributeKey": "layup",
@@ -1200,51 +1132,339 @@
       "tiers": [
         {
           "tier": "bronze",
-          "xp": 450,
+          "xp": 750,
           "requirements": [
             {
               "attributeKey": "closeShot",
-              "min": 73
+              "min": 60
             }
           ]
         },
         {
           "tier": "silver",
-          "xp": 900,
+          "xp": 1500,
           "requirements": [
             {
               "attributeKey": "closeShot",
-              "min": 84
+              "min": 74
             }
           ]
         },
         {
           "tier": "gold",
-          "xp": 1800,
+          "xp": 3000,
           "requirements": [
             {
               "attributeKey": "closeShot",
-              "min": 92
+              "min": 86
             }
           ]
         },
         {
           "tier": "hof",
-          "xp": 4500,
+          "xp": 7500,
           "requirements": [
             {
               "attributeKey": "closeShot",
-              "min": 96
+              "min": 94
             }
           ]
         },
         {
           "tier": "legend",
-          "xp": 11250,
+          "xp": 18750,
           "requirements": [
             {
               "attributeKey": "closeShot",
+              "min": 98
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "physicalFinisher",
+      "name": "Physical Finisher",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1125,
+          "requirements": [
+            {
+              "attributeKey": "layup",
+              "min": 73
+            },
+            {
+              "attributeKey": "strength",
+              "min": 62
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2250,
+          "requirements": [
+            {
+              "attributeKey": "layup",
+              "min": 85
+            },
+            {
+              "attributeKey": "strength",
+              "min": 72
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4500,
+          "requirements": [
+            {
+              "attributeKey": "layup",
+              "min": 92
+            },
+            {
+              "attributeKey": "strength",
+              "min": 82
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 11250,
+          "requirements": [
+            {
+              "attributeKey": "layup",
+              "min": 96
+            },
+            {
+              "attributeKey": "strength",
+              "min": 90
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 28125,
+          "requirements": [
+            {
+              "attributeKey": "layup",
               "min": 99
+            },
+            {
+              "attributeKey": "strength",
+              "min": 95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "postFadePhenom",
+      "name": "Post Fade Phenom",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 60
+            },
+            {
+              "attributeKey": "midRangeShot",
+              "min": 55
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 74
+            },
+            {
+              "attributeKey": "midRangeShot",
+              "min": 65
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 86
+            },
+            {
+              "attributeKey": "midRangeShot",
+              "min": 76
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 94
+            },
+            {
+              "attributeKey": "midRangeShot",
+              "min": 86
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 18750,
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 98
+            },
+            {
+              "attributeKey": "midRangeShot",
+              "min": 92
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "postPowerhouse",
+      "name": "Post Powerhouse",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 60
+            },
+            {
+              "attributeKey": "strength",
+              "min": 55
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 74
+            },
+            {
+              "attributeKey": "strength",
+              "min": 65
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 86
+            },
+            {
+              "attributeKey": "strength",
+              "min": 76
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 94
+            },
+            {
+              "attributeKey": "strength",
+              "min": 86
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 18750,
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 98
+            },
+            {
+              "attributeKey": "strength",
+              "min": 92
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "postUpPoet",
+      "name": "Post-Up Poet",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 74
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 86
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 94
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 18750,
+          "requirements": [
+            {
+              "attributeKey": "postControl",
+              "min": 98
             }
           ]
         }
@@ -1265,7 +1485,7 @@
             },
             {
               "attributeKey": "vertical",
-              "min": 65
+              "min": 62
             }
           ]
         },
@@ -1275,11 +1495,11 @@
           "requirements": [
             {
               "attributeKey": "drivingDunk",
-              "min": 87
+              "min": 85
             },
             {
               "attributeKey": "vertical",
-              "min": 75
+              "min": 72
             }
           ]
         },
@@ -1289,11 +1509,11 @@
           "requirements": [
             {
               "attributeKey": "drivingDunk",
-              "min": 93
+              "min": 92
             },
             {
               "attributeKey": "vertical",
-              "min": 80
+              "min": 82
             }
           ]
         },
@@ -1307,7 +1527,7 @@
             },
             {
               "attributeKey": "vertical",
-              "min": 85
+              "min": 90
             }
           ]
         },
@@ -1321,7 +1541,426 @@
             },
             {
               "attributeKey": "vertical",
-              "min": 90
+              "min": 95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "riseUp",
+      "name": "Rise Up",
+      "category": "inside",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "standingDunk",
+              "min": 60
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 55
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "standingDunk",
+              "min": 74
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 65
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "standingDunk",
+              "min": 86
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 76
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "standingDunk",
+              "min": 94
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 86
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 18750,
+          "requirements": [
+            {
+              "attributeKey": "standingDunk",
+              "min": 98
+            },
+            {
+              "attributeKey": "vertical",
+              "min": 92
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ankleAssassin",
+      "name": "Ankle Assassin",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1125,
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 73
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2250,
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 85
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4500,
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 92
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 11250,
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 96
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 28125,
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bailOut",
+      "name": "Bail Out",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 74
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 86
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 94
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 18750,
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 98
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "breakStarter",
+      "name": "Break Starter",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 74
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 86
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 94
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 18750,
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 98
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dimer",
+      "name": "Dimer",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1125,
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 73
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2250,
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 85
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4500,
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 92
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 11250,
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 96
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 28125,
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "handlesForDays",
+      "name": "Handles For Days",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 74
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 86
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 94
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 18750,
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 98
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lightningLaunch",
+      "name": "Lightning Launch",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "speedWithBall",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "speedWithBall",
+              "min": 74
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "speedWithBall",
+              "min": 86
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "speedWithBall",
+              "min": 94
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 18750,
+          "requirements": [
+            {
+              "attributeKey": "speedWithBall",
+              "min": 98
             }
           ]
         }
@@ -1334,6 +1973,83 @@
       "tiers": [
         {
           "tier": "bronze",
+          "xp": 450,
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 55
+            },
+            {
+              "attributeKey": "strength",
+              "min": 50
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 900,
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 68
+            },
+            {
+              "attributeKey": "strength",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 1800,
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 80
+            },
+            {
+              "attributeKey": "strength",
+              "min": 72
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 4500,
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 90
+            },
+            {
+              "attributeKey": "strength",
+              "min": 83
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 11250,
+          "requirements": [
+            {
+              "attributeKey": "ballHandle",
+              "min": 96
+            },
+            {
+              "attributeKey": "strength",
+              "min": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unpluckable",
+      "name": "Unpluckable",
+      "category": "playmaking",
+      "tiers": [
+        {
+          "tier": "bronze",
           "xp": 750,
           "requirements": [
             {
@@ -1341,8 +2057,8 @@
               "min": 60
             },
             {
-              "attributeKey": "strength",
-              "min": 60
+              "attributeKey": "postControl",
+              "min": 55
             }
           ]
         },
@@ -1352,10 +2068,10 @@
           "requirements": [
             {
               "attributeKey": "ballHandle",
-              "min": 67
+              "min": 74
             },
             {
-              "attributeKey": "strength",
+              "attributeKey": "postControl",
               "min": 65
             }
           ]
@@ -1366,11 +2082,11 @@
           "requirements": [
             {
               "attributeKey": "ballHandle",
-              "min": 73
+              "min": 86
             },
             {
-              "attributeKey": "strength",
-              "min": 73
+              "attributeKey": "postControl",
+              "min": 76
             }
           ]
         },
@@ -1380,11 +2096,11 @@
           "requirements": [
             {
               "attributeKey": "ballHandle",
-              "min": 77
+              "min": 94
             },
             {
-              "attributeKey": "strength",
-              "min": 84
+              "attributeKey": "postControl",
+              "min": 86
             }
           ]
         },
@@ -1394,88 +2110,68 @@
           "requirements": [
             {
               "attributeKey": "ballHandle",
-              "min": 80
+              "min": 98
             },
             {
-              "attributeKey": "strength",
-              "min": 93
+              "attributeKey": "postControl",
+              "min": 92
             }
           ]
         }
       ]
     },
     {
-      "key": "pickDodger",
-      "name": "Pick Dodger",
-      "category": "defending",
+      "key": "versatileVisionary",
+      "name": "Versatile Visionary",
+      "category": "playmaking",
       "tiers": [
         {
           "tier": "bronze",
-          "xp": 750,
+          "xp": 1125,
           "requirements": [
             {
-              "attributeKey": "perimeterDefense",
+              "attributeKey": "passAccuracy",
               "min": 73
-            },
-            {
-              "attributeKey": "agility",
-              "min": 71
             }
           ]
         },
         {
           "tier": "silver",
-          "xp": 1500,
+          "xp": 2250,
           "requirements": [
             {
-              "attributeKey": "perimeterDefense",
-              "min": 83
-            },
-            {
-              "attributeKey": "agility",
-              "min": 75
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 3000,
-          "requirements": [
-            {
-              "attributeKey": "perimeterDefense",
-              "min": 90
-            },
-            {
-              "attributeKey": "agility",
-              "min": 79
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 7500,
-          "requirements": [
-            {
-              "attributeKey": "perimeterDefense",
-              "min": 97
-            },
-            {
-              "attributeKey": "agility",
+              "attributeKey": "passAccuracy",
               "min": 85
             }
           ]
         },
         {
-          "tier": "legend",
-          "xp": 18750,
+          "tier": "gold",
+          "xp": 4500,
           "requirements": [
             {
-              "attributeKey": "perimeterDefense",
-              "min": 99
-            },
-            {
-              "attributeKey": "agility",
+              "attributeKey": "passAccuracy",
               "min": 92
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 11250,
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 96
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 28125,
+          "requirements": [
+            {
+              "attributeKey": "passAccuracy",
+              "min": 99
             }
           ]
         }
@@ -1488,27 +2184,27 @@
       "tiers": [
         {
           "tier": "bronze",
-          "xp": 750,
+          "xp": 1125,
           "requirements": [
             {
               "attributeKey": "perimeterDefense",
-              "min": 71
+              "min": 73
             }
           ]
         },
         {
           "tier": "silver",
-          "xp": 1500,
+          "xp": 2250,
           "requirements": [
             {
               "attributeKey": "perimeterDefense",
-              "min": 82
+              "min": 85
             }
           ]
         },
         {
           "tier": "gold",
-          "xp": 3000,
+          "xp": 4500,
           "requirements": [
             {
               "attributeKey": "perimeterDefense",
@@ -1518,118 +2214,21 @@
         },
         {
           "tier": "hof",
-          "xp": 7500,
+          "xp": 11250,
           "requirements": [
             {
               "attributeKey": "perimeterDefense",
-              "min": 95
+              "min": 96
             }
           ]
         },
         {
           "tier": "legend",
-          "xp": 18750,
+          "xp": 28125,
           "requirements": [
             {
               "attributeKey": "perimeterDefense",
               "min": 99
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "floatGame",
-      "name": "Float Game",
-      "category": "inside",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 450,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "closeShot",
-                  "min": 65
-                },
-                {
-                  "attributeKey": "layup",
-                  "min": 68
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 900,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "closeShot",
-                  "min": 78
-                },
-                {
-                  "attributeKey": "layup",
-                  "min": 78
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 1800,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "closeShot",
-                  "min": 86
-                },
-                {
-                  "attributeKey": "layup",
-                  "min": 88
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 4500,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "closeShot",
-                  "min": 92
-                },
-                {
-                  "attributeKey": "layup",
-                  "min": 95
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 11250,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "closeShot",
-                  "min": 98
-                },
-                {
-                  "attributeKey": "layup",
-                  "min": 98
-                }
-              ]
             }
           ]
         }
@@ -1646,7 +2245,7 @@
           "requirements": [
             {
               "attributeKey": "steal",
-              "min": 67
+              "min": 73
             }
           ]
         },
@@ -1656,7 +2255,7 @@
           "requirements": [
             {
               "attributeKey": "steal",
-              "min": 79
+              "min": 85
             }
           ]
         },
@@ -1666,7 +2265,7 @@
           "requirements": [
             {
               "attributeKey": "steal",
-              "min": 91
+              "min": 92
             }
           ]
         },
@@ -1687,6 +2286,200 @@
             {
               "attributeKey": "steal",
               "min": 99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "highFlyingDenier",
+      "name": "High-Flying Denier",
+      "category": "defending",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 60
+            },
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "speed",
+                  "min": 55
+                },
+                {
+                  "attributeKey": "vertical",
+                  "min": 55
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 74
+            },
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "speed",
+                  "min": 65
+                },
+                {
+                  "attributeKey": "vertical",
+                  "min": 65
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 86
+            },
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "speed",
+                  "min": 76
+                },
+                {
+                  "attributeKey": "vertical",
+                  "min": 76
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 94
+            },
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "speed",
+                  "min": 86
+                },
+                {
+                  "attributeKey": "vertical",
+                  "min": 86
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 18750,
+          "requirements": [
+            {
+              "attributeKey": "block",
+              "min": 98
+            },
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "speed",
+                  "min": 92
+                },
+                {
+                  "attributeKey": "vertical",
+                  "min": 92
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "immovableEnforcer",
+      "name": "Immovable Enforcer",
+      "category": "defending",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 60
+            },
+            {
+              "attributeKey": "strength",
+              "min": 55
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 74
+            },
+            {
+              "attributeKey": "strength",
+              "min": 65
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 86
+            },
+            {
+              "attributeKey": "strength",
+              "min": 76
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 94
+            },
+            {
+              "attributeKey": "strength",
+              "min": 86
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 18750,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 98
+            },
+            {
+              "attributeKey": "strength",
+              "min": 92
             }
           ]
         }
@@ -1713,7 +2506,7 @@
           "requirements": [
             {
               "attributeKey": "steal",
-              "min": 73
+              "min": 74
             }
           ]
         },
@@ -1723,7 +2516,7 @@
           "requirements": [
             {
               "attributeKey": "steal",
-              "min": 85
+              "min": 86
             }
           ]
         },
@@ -1756,17 +2549,17 @@
       "tiers": [
         {
           "tier": "bronze",
-          "xp": 450,
+          "xp": 750,
           "requirements": [
             {
               "anyOf": [
                 {
-                  "attributeKey": "interiorDefense",
-                  "min": 58
+                  "attributeKey": "perimeterDefense",
+                  "min": 60
                 },
                 {
-                  "attributeKey": "perimeterDefense",
-                  "min": 58
+                  "attributeKey": "interiorDefense",
+                  "min": 60
                 }
               ]
             }
@@ -1774,17 +2567,17 @@
         },
         {
           "tier": "silver",
-          "xp": 900,
+          "xp": 1500,
           "requirements": [
             {
               "anyOf": [
                 {
-                  "attributeKey": "interiorDefense",
-                  "min": 68
+                  "attributeKey": "perimeterDefense",
+                  "min": 74
                 },
                 {
-                  "attributeKey": "perimeterDefense",
-                  "min": 68
+                  "attributeKey": "interiorDefense",
+                  "min": 74
                 }
               ]
             }
@@ -1792,17 +2585,17 @@
         },
         {
           "tier": "gold",
-          "xp": 1800,
+          "xp": 3000,
           "requirements": [
             {
               "anyOf": [
                 {
-                  "attributeKey": "interiorDefense",
-                  "min": 80
+                  "attributeKey": "perimeterDefense",
+                  "min": 86
                 },
                 {
-                  "attributeKey": "perimeterDefense",
-                  "min": 80
+                  "attributeKey": "interiorDefense",
+                  "min": 86
                 }
               ]
             }
@@ -1810,17 +2603,17 @@
         },
         {
           "tier": "hof",
-          "xp": 4500,
+          "xp": 7500,
           "requirements": [
             {
               "anyOf": [
                 {
-                  "attributeKey": "interiorDefense",
-                  "min": 87
+                  "attributeKey": "perimeterDefense",
+                  "min": 94
                 },
                 {
-                  "attributeKey": "perimeterDefense",
-                  "min": 87
+                  "attributeKey": "interiorDefense",
+                  "min": 94
                 }
               ]
             }
@@ -1828,17 +2621,17 @@
         },
         {
           "tier": "legend",
-          "xp": 11250,
+          "xp": 18750,
           "requirements": [
             {
               "anyOf": [
                 {
-                  "attributeKey": "interiorDefense",
-                  "min": 97
+                  "attributeKey": "perimeterDefense",
+                  "min": 98
                 },
                 {
-                  "attributeKey": "perimeterDefense",
-                  "min": 97
+                  "attributeKey": "interiorDefense",
+                  "min": 98
                 }
               ]
             }
@@ -1857,11 +2650,11 @@
           "requirements": [
             {
               "attributeKey": "perimeterDefense",
-              "min": 74
+              "min": 73
             },
             {
               "attributeKey": "agility",
-              "min": 70
+              "min": 62
             }
           ]
         },
@@ -1875,800 +2668,203 @@
             },
             {
               "attributeKey": "agility",
-              "min": 76
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 4500,
-          "requirements": [
-            {
-              "attributeKey": "perimeterDefense",
-              "min": 91
-            },
-            {
-              "attributeKey": "agility",
-              "min": 80
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 11250,
-          "requirements": [
-            {
-              "attributeKey": "perimeterDefense",
-              "min": 96
-            },
-            {
-              "attributeKey": "agility",
-              "min": 84
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 28125,
-          "requirements": [
-            {
-              "attributeKey": "perimeterDefense",
-              "min": 99
-            },
-            {
-              "attributeKey": "agility",
-              "min": 86
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "shiftyShooter",
-      "name": "Shifty Shooter",
-      "category": "outside",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 1125,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "midRangeShot",
-                  "min": 76
-                },
-                {
-                  "attributeKey": "threePointShot",
-                  "min": 76
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 2250,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "midRangeShot",
-                  "min": 87
-                },
-                {
-                  "attributeKey": "threePointShot",
-                  "min": 87
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 4500,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "midRangeShot",
-                  "min": 91
-                },
-                {
-                  "attributeKey": "threePointShot",
-                  "min": 91
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 11250,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "midRangeShot",
-                  "min": 96
-                },
-                {
-                  "attributeKey": "threePointShot",
-                  "min": 96
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 28125,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "midRangeShot",
-                  "min": 99
-                },
-                {
-                  "attributeKey": "threePointShot",
-                  "min": 99
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "deadeye",
-      "name": "Deadeye",
-      "category": "outside",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 1125,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "midRangeShot",
-                  "min": 73
-                },
-                {
-                  "attributeKey": "threePointShot",
-                  "min": 73
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 2250,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "midRangeShot",
-                  "min": 85
-                },
-                {
-                  "attributeKey": "threePointShot",
-                  "min": 85
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 4500,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "midRangeShot",
-                  "min": 92
-                },
-                {
-                  "attributeKey": "threePointShot",
-                  "min": 92
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 11250,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "midRangeShot",
-                  "min": 95
-                },
-                {
-                  "attributeKey": "threePointShot",
-                  "min": 95
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 28125,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "midRangeShot",
-                  "min": 99
-                },
-                {
-                  "attributeKey": "threePointShot",
-                  "min": 99
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "lightningLaunch",
-      "name": "Lightning Launch",
-      "category": "playmaking",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 1125,
-          "requirements": [
-            {
-              "attributeKey": "speedWithBall",
-              "min": 68
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 2250,
-          "requirements": [
-            {
-              "attributeKey": "speedWithBall",
-              "min": 75
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 4500,
-          "requirements": [
-            {
-              "attributeKey": "speedWithBall",
-              "min": 86
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 11250,
-          "requirements": [
-            {
-              "attributeKey": "speedWithBall",
-              "min": 91
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 28125,
-          "requirements": [
-            {
-              "attributeKey": "speedWithBall",
-              "min": 94
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "miniMarksman",
-      "name": "Mini Marksman",
-      "category": "outside",
-      "maxHeight": 75,
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 750,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "midRangeShot",
-                  "min": 71
-                },
-                {
-                  "attributeKey": "threePointShot",
-                  "min": 71
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 1500,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "midRangeShot",
-                  "min": 82
-                },
-                {
-                  "attributeKey": "threePointShot",
-                  "min": 82
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 3000,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "midRangeShot",
-                  "min": 94
-                },
-                {
-                  "attributeKey": "threePointShot",
-                  "min": 94
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 7500,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "midRangeShot",
-                  "min": 97
-                },
-                {
-                  "attributeKey": "threePointShot",
-                  "min": 97
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 18750,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "midRangeShot",
-                  "min": 99
-                },
-                {
-                  "attributeKey": "threePointShot",
-                  "min": 99
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "ankleAssassin",
-      "name": "Ankle Assassin",
-      "category": "playmaking",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 450,
-          "requirements": [
-            {
-              "attributeKey": "ballHandle",
-              "min": 75
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 900,
-          "requirements": [
-            {
-              "attributeKey": "ballHandle",
-              "min": 86
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 1800,
-          "requirements": [
-            {
-              "attributeKey": "ballHandle",
-              "min": 93
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 4500,
-          "requirements": [
-            {
-              "attributeKey": "ballHandle",
-              "min": 95
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 11250,
-          "requirements": [
-            {
-              "attributeKey": "ballHandle",
-              "min": 98
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "handlesForDays",
-      "name": "Handles For Days",
-      "category": "playmaking",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 750,
-          "requirements": [
-            {
-              "attributeKey": "ballHandle",
-              "min": 71
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 1500,
-          "requirements": [
-            {
-              "attributeKey": "ballHandle",
-              "min": 81
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 3000,
-          "requirements": [
-            {
-              "attributeKey": "ballHandle",
-              "min": 90
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 7500,
-          "requirements": [
-            {
-              "attributeKey": "ballHandle",
-              "min": 94
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 18750,
-          "requirements": [
-            {
-              "attributeKey": "ballHandle",
-              "min": 97
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "limitlessRange",
-      "name": "Limitless Range",
-      "category": "outside",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 1125,
-          "requirements": [
-            {
-              "attributeKey": "threePointShot",
-              "min": 83
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 2250,
-          "requirements": [
-            {
-              "attributeKey": "threePointShot",
-              "min": 89
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 4500,
-          "requirements": [
-            {
-              "attributeKey": "threePointShot",
-              "min": 93
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 11250,
-          "requirements": [
-            {
-              "attributeKey": "threePointShot",
-              "min": 96
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 28125,
-          "requirements": [
-            {
-              "attributeKey": "threePointShot",
-              "min": 99
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "unpluckable",
-      "name": "Unpluckable",
-      "category": "playmaking",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 450,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "ballHandle",
-                  "min": 70
-                },
-                {
-                  "attributeKey": "postControl",
-                  "min": 70
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 900,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "ballHandle",
-                  "min": 80
-                },
-                {
-                  "attributeKey": "postControl",
-                  "min": 80
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 1800,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "ballHandle",
-                  "min": 92
-                },
-                {
-                  "attributeKey": "postControl",
-                  "min": 92
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 4500,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "ballHandle",
-                  "min": 96
-                },
-                {
-                  "attributeKey": "postControl",
-                  "min": 96
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 11250,
-          "requirements": [
-            {
-              "anyOf": [
-                {
-                  "attributeKey": "ballHandle",
-                  "min": 99
-                },
-                {
-                  "attributeKey": "postControl",
-                  "min": 99
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "immovableEnforcer",
-      "name": "Immovable Enforcer",
-      "category": "defending",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 750,
-          "requirements": [
-            {
-              "attributeKey": "perimeterDefense",
-              "min": 62
-            },
-            {
-              "attributeKey": "strength",
-              "min": 71
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 1500,
-          "requirements": [
-            {
-              "attributeKey": "perimeterDefense",
               "min": 72
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4500,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 92
             },
             {
-              "attributeKey": "strength",
+              "attributeKey": "agility",
               "min": 82
             }
           ]
         },
         {
-          "tier": "gold",
-          "xp": 3000,
-          "requirements": [
-            {
-              "attributeKey": "perimeterDefense",
-              "min": 84
-            },
-            {
-              "attributeKey": "strength",
-              "min": 85
-            }
-          ]
-        },
-        {
           "tier": "hof",
-          "xp": 7500,
+          "xp": 11250,
           "requirements": [
             {
               "attributeKey": "perimeterDefense",
-              "min": 89
+              "min": 96
             },
             {
-              "attributeKey": "strength",
-              "min": 91
+              "attributeKey": "agility",
+              "min": 90
             }
           ]
         },
         {
           "tier": "legend",
-          "xp": 18750,
+          "xp": 28125,
           "requirements": [
             {
               "attributeKey": "perimeterDefense",
-              "min": 94
+              "min": 99
             },
             {
-              "attributeKey": "strength",
-              "min": 92
+              "attributeKey": "agility",
+              "min": 95
             }
           ]
         }
       ]
     },
     {
-      "key": "brickWall",
-      "name": "Brick Wall",
-      "category": "athleticism",
+      "key": "paintPatroller",
+      "name": "Paint Patroller",
+      "category": "defending",
       "tiers": [
         {
           "tier": "bronze",
-          "xp": 750,
+          "xp": 1125,
           "requirements": [
             {
-              "attributeKey": "strength",
-              "min": 72
+              "attributeKey": "interiorDefense",
+              "min": 73
+            },
+            {
+              "attributeKey": "block",
+              "min": 62
             }
           ]
         },
         {
           "tier": "silver",
-          "xp": 1500,
+          "xp": 2250,
           "requirements": [
             {
-              "attributeKey": "strength",
-              "min": 83
+              "attributeKey": "interiorDefense",
+              "min": 85
+            },
+            {
+              "attributeKey": "block",
+              "min": 72
             }
           ]
         },
         {
           "tier": "gold",
-          "xp": 3000,
+          "xp": 4500,
           "requirements": [
             {
-              "attributeKey": "strength",
-              "min": 91
+              "attributeKey": "interiorDefense",
+              "min": 92
+            },
+            {
+              "attributeKey": "block",
+              "min": 82
             }
           ]
         },
         {
           "tier": "hof",
-          "xp": 7500,
+          "xp": 11250,
           "requirements": [
             {
-              "attributeKey": "strength",
-              "min": 95
+              "attributeKey": "interiorDefense",
+              "min": 96
+            },
+            {
+              "attributeKey": "block",
+              "min": 90
             }
           ]
         },
         {
           "tier": "legend",
-          "xp": 18750,
+          "xp": 28125,
           "requirements": [
             {
-              "attributeKey": "strength",
+              "attributeKey": "interiorDefense",
               "min": 99
+            },
+            {
+              "attributeKey": "block",
+              "min": 95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pickDodger",
+      "name": "Pick Dodger",
+      "category": "defending",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 450,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 55
+            },
+            {
+              "attributeKey": "agility",
+              "min": 50
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 900,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 68
+            },
+            {
+              "attributeKey": "agility",
+              "min": 60
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 1800,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 80
+            },
+            {
+              "attributeKey": "agility",
+              "min": 72
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 4500,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 90
+            },
+            {
+              "attributeKey": "agility",
+              "min": 83
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 11250,
+          "requirements": [
+            {
+              "attributeKey": "perimeterDefense",
+              "min": 96
+            },
+            {
+              "attributeKey": "agility",
+              "min": 90
             }
           ]
         }
@@ -2685,25 +2881,25 @@
           "requirements": [
             {
               "attributeKey": "interiorDefense",
+              "min": 60
+            },
+            {
+              "attributeKey": "strength",
+              "min": 55
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "attributeKey": "interiorDefense",
               "min": 74
             },
             {
               "attributeKey": "strength",
-              "min": 70
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 1500,
-          "requirements": [
-            {
-              "attributeKey": "interiorDefense",
-              "min": 82
-            },
-            {
-              "attributeKey": "strength",
-              "min": 78
+              "min": 65
             }
           ]
         },
@@ -2713,11 +2909,11 @@
           "requirements": [
             {
               "attributeKey": "interiorDefense",
-              "min": 88
+              "min": 86
             },
             {
               "attributeKey": "strength",
-              "min": 84
+              "min": 76
             }
           ]
         },
@@ -2727,147 +2923,7 @@
           "requirements": [
             {
               "attributeKey": "interiorDefense",
-              "min": 93
-            },
-            {
-              "attributeKey": "strength",
-              "min": 92
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 18750,
-          "requirements": [
-            {
-              "attributeKey": "interiorDefense",
-              "min": 99
-            },
-            {
-              "attributeKey": "strength",
-              "min": 97
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "riseUp",
-      "name": "Rise Up",
-      "category": "inside",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 750,
-          "requirements": [
-            {
-              "attributeKey": "standingDunk",
-              "min": 72
-            },
-            {
-              "attributeKey": "vertical",
-              "min": 60
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 1500,
-          "requirements": [
-            {
-              "attributeKey": "standingDunk",
-              "min": 81
-            },
-            {
-              "attributeKey": "vertical",
-              "min": 62
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 3000,
-          "requirements": [
-            {
-              "attributeKey": "standingDunk",
-              "min": 90
-            },
-            {
-              "attributeKey": "vertical",
-              "min": 66
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 7500,
-          "requirements": [
-            {
-              "attributeKey": "standingDunk",
-              "min": 95
-            },
-            {
-              "attributeKey": "vertical",
-              "min": 69
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 18750,
-          "requirements": [
-            {
-              "attributeKey": "standingDunk",
-              "min": 99
-            },
-            {
-              "attributeKey": "vertical",
-              "min": 71
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "postPowerhouse",
-      "name": "Post Powerhouse",
-      "category": "inside",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 450,
-          "requirements": [
-            {
-              "attributeKey": "postControl",
-              "min": 64
-            },
-            {
-              "attributeKey": "strength",
-              "min": 70
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 900,
-          "requirements": [
-            {
-              "attributeKey": "postControl",
-              "min": 75
-            },
-            {
-              "attributeKey": "strength",
-              "min": 79
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 1800,
-          "requirements": [
-            {
-              "attributeKey": "postControl",
-              "min": 85
+              "min": 94
             },
             {
               "attributeKey": "strength",
@@ -2876,16 +2932,277 @@
           ]
         },
         {
+          "tier": "legend",
+          "xp": 18750,
+          "requirements": [
+            {
+              "attributeKey": "interiorDefense",
+              "min": 98
+            },
+            {
+              "attributeKey": "strength",
+              "min": 92
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "boxoutBeast",
+      "name": "Boxout Beast",
+      "category": "rebounding",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 750,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "offensiveRebound",
+                  "min": 60
+                },
+                {
+                  "attributeKey": "defensiveRebound",
+                  "min": 60
+                }
+              ]
+            },
+            {
+              "attributeKey": "strength",
+              "min": 55
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 1500,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "offensiveRebound",
+                  "min": 74
+                },
+                {
+                  "attributeKey": "defensiveRebound",
+                  "min": 74
+                }
+              ]
+            },
+            {
+              "attributeKey": "strength",
+              "min": 65
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 3000,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "offensiveRebound",
+                  "min": 86
+                },
+                {
+                  "attributeKey": "defensiveRebound",
+                  "min": 86
+                }
+              ]
+            },
+            {
+              "attributeKey": "strength",
+              "min": 76
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 7500,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "offensiveRebound",
+                  "min": 94
+                },
+                {
+                  "attributeKey": "defensiveRebound",
+                  "min": 94
+                }
+              ]
+            },
+            {
+              "attributeKey": "strength",
+              "min": 86
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 18750,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "offensiveRebound",
+                  "min": 98
+                },
+                {
+                  "attributeKey": "defensiveRebound",
+                  "min": 98
+                }
+              ]
+            },
+            {
+              "attributeKey": "strength",
+              "min": 92
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "reboundChaser",
+      "name": "Rebound Chaser",
+      "category": "rebounding",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 1125,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "offensiveRebound",
+                  "min": 73
+                },
+                {
+                  "attributeKey": "defensiveRebound",
+                  "min": 73
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 2250,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "offensiveRebound",
+                  "min": 85
+                },
+                {
+                  "attributeKey": "defensiveRebound",
+                  "min": 85
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 4500,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "offensiveRebound",
+                  "min": 92
+                },
+                {
+                  "attributeKey": "defensiveRebound",
+                  "min": 92
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "hof",
+          "xp": 11250,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "offensiveRebound",
+                  "min": 96
+                },
+                {
+                  "attributeKey": "defensiveRebound",
+                  "min": 96
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "legend",
+          "xp": 28125,
+          "requirements": [
+            {
+              "anyOf": [
+                {
+                  "attributeKey": "offensiveRebound",
+                  "min": 99
+                },
+                {
+                  "attributeKey": "defensiveRebound",
+                  "min": 99
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "brickWall",
+      "name": "Brick Wall",
+      "category": "athleticism",
+      "tiers": [
+        {
+          "tier": "bronze",
+          "xp": 450,
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 55
+            }
+          ]
+        },
+        {
+          "tier": "silver",
+          "xp": 900,
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 68
+            }
+          ]
+        },
+        {
+          "tier": "gold",
+          "xp": 1800,
+          "requirements": [
+            {
+              "attributeKey": "strength",
+              "min": 80
+            }
+          ]
+        },
+        {
           "tier": "hof",
           "xp": 4500,
           "requirements": [
             {
-              "attributeKey": "postControl",
-              "min": 93
-            },
-            {
               "attributeKey": "strength",
-              "min": 95
+              "min": 90
             }
           ]
         },
@@ -2893,10 +3210,6 @@
           "tier": "legend",
           "xp": 11250,
           "requirements": [
-            {
-              "attributeKey": "postControl",
-              "min": 98
-            },
             {
               "attributeKey": "strength",
               "min": 96
@@ -2906,289 +3219,254 @@
       ]
     },
     {
-      "key": "hookSpecialist",
-      "name": "Hook Specialist",
-      "category": "inside",
+      "key": "pogoStick",
+      "name": "Pogo Stick",
+      "category": "rebounding",
       "tiers": [
         {
           "tier": "bronze",
-          "xp": 450,
+          "xp": 750,
           "requirements": [
             {
-              "attributeKey": "closeShot",
-              "min": 60
+              "anyOf": [
+                {
+                  "attributeKey": "offensiveRebound",
+                  "min": 60
+                },
+                {
+                  "attributeKey": "defensiveRebound",
+                  "min": 60
+                }
+              ]
             },
             {
-              "attributeKey": "postControl",
-              "min": 61
+              "anyOf": [
+                {
+                  "attributeKey": "vertical",
+                  "min": 55
+                },
+                {
+                  "attributeKey": "block",
+                  "min": 55
+                }
+              ]
             }
           ]
         },
         {
           "tier": "silver",
-          "xp": 900,
+          "xp": 1500,
           "requirements": [
             {
-              "attributeKey": "closeShot",
-              "min": 75
+              "anyOf": [
+                {
+                  "attributeKey": "offensiveRebound",
+                  "min": 74
+                },
+                {
+                  "attributeKey": "defensiveRebound",
+                  "min": 74
+                }
+              ]
             },
             {
-              "attributeKey": "postControl",
-              "min": 65
+              "anyOf": [
+                {
+                  "attributeKey": "vertical",
+                  "min": 65
+                },
+                {
+                  "attributeKey": "block",
+                  "min": 65
+                }
+              ]
             }
           ]
         },
         {
           "tier": "gold",
-          "xp": 1800,
+          "xp": 3000,
           "requirements": [
             {
-              "attributeKey": "closeShot",
-              "min": 87
+              "anyOf": [
+                {
+                  "attributeKey": "offensiveRebound",
+                  "min": 86
+                },
+                {
+                  "attributeKey": "defensiveRebound",
+                  "min": 86
+                }
+              ]
             },
             {
-              "attributeKey": "postControl",
-              "min": 80
+              "anyOf": [
+                {
+                  "attributeKey": "vertical",
+                  "min": 76
+                },
+                {
+                  "attributeKey": "block",
+                  "min": 76
+                }
+              ]
             }
           ]
         },
         {
           "tier": "hof",
-          "xp": 4500,
+          "xp": 7500,
           "requirements": [
             {
-              "attributeKey": "closeShot",
-              "min": 94
+              "anyOf": [
+                {
+                  "attributeKey": "offensiveRebound",
+                  "min": 94
+                },
+                {
+                  "attributeKey": "defensiveRebound",
+                  "min": 94
+                }
+              ]
             },
             {
-              "attributeKey": "postControl",
-              "min": 90
+              "anyOf": [
+                {
+                  "attributeKey": "vertical",
+                  "min": 86
+                },
+                {
+                  "attributeKey": "block",
+                  "min": 86
+                }
+              ]
             }
           ]
         },
         {
           "tier": "legend",
-          "xp": 11250,
+          "xp": 18750,
           "requirements": [
             {
-              "attributeKey": "closeShot",
-              "min": 99
+              "anyOf": [
+                {
+                  "attributeKey": "offensiveRebound",
+                  "min": 98
+                },
+                {
+                  "attributeKey": "defensiveRebound",
+                  "min": 98
+                }
+              ]
             },
             {
-              "attributeKey": "postControl",
-              "min": 97
+              "anyOf": [
+                {
+                  "attributeKey": "vertical",
+                  "min": 92
+                },
+                {
+                  "attributeKey": "block",
+                  "min": 92
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "key": "postUpPoet",
-      "name": "Post-Up Poet",
-      "category": "inside",
+      "key": "slipperyOffBall",
+      "name": "Slippery Off-Ball",
+      "category": "outside",
       "tiers": [
         {
           "tier": "bronze",
-          "xp": 450,
+          "xp": 750,
           "requirements": [
             {
-              "attributeKey": "postControl",
-              "min": 67
+              "anyOf": [
+                {
+                  "attributeKey": "speed",
+                  "min": 60
+                },
+                {
+                  "attributeKey": "agility",
+                  "min": 60
+                }
+              ]
             }
           ]
         },
         {
           "tier": "silver",
-          "xp": 900,
+          "xp": 1500,
           "requirements": [
             {
-              "attributeKey": "postControl",
-              "min": 77
+              "anyOf": [
+                {
+                  "attributeKey": "speed",
+                  "min": 74
+                },
+                {
+                  "attributeKey": "agility",
+                  "min": 74
+                }
+              ]
             }
           ]
         },
         {
           "tier": "gold",
-          "xp": 1800,
+          "xp": 3000,
           "requirements": [
             {
-              "attributeKey": "postControl",
-              "min": 87
+              "anyOf": [
+                {
+                  "attributeKey": "speed",
+                  "min": 86
+                },
+                {
+                  "attributeKey": "agility",
+                  "min": 86
+                }
+              ]
             }
           ]
         },
         {
           "tier": "hof",
-          "xp": 4500,
+          "xp": 7500,
           "requirements": [
             {
-              "attributeKey": "postControl",
-              "min": 95
+              "anyOf": [
+                {
+                  "attributeKey": "speed",
+                  "min": 94
+                },
+                {
+                  "attributeKey": "agility",
+                  "min": 94
+                }
+              ]
             }
           ]
         },
         {
           "tier": "legend",
-          "xp": 11250,
+          "xp": 18750,
           "requirements": [
             {
-              "attributeKey": "postControl",
-              "min": 99
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "postFadePhenom",
-      "name": "Post Fade Phenom",
-      "category": "inside",
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 450,
-          "requirements": [
-            {
-              "attributeKey": "postControl",
-              "min": 60
-            },
-            {
-              "attributeKey": "midRangeShot",
-              "min": 61
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 900,
-          "requirements": [
-            {
-              "attributeKey": "postControl",
-              "min": 70
-            },
-            {
-              "attributeKey": "midRangeShot",
-              "min": 71
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 1800,
-          "requirements": [
-            {
-              "attributeKey": "postControl",
-              "min": 79
-            },
-            {
-              "attributeKey": "midRangeShot",
-              "min": 80
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 4500,
-          "requirements": [
-            {
-              "attributeKey": "postControl",
-              "min": 84
-            },
-            {
-              "attributeKey": "midRangeShot",
-              "min": 90
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 11250,
-          "requirements": [
-            {
-              "attributeKey": "postControl",
-              "min": 90
-            },
-            {
-              "attributeKey": "midRangeShot",
-              "min": 94
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "paintPatroller",
-      "name": "Paint Patroller",
-      "category": "defending",
-      "minHeight": 78,
-      "tiers": [
-        {
-          "tier": "bronze",
-          "xp": 1125,
-          "requirements": [
-            {
-              "attributeKey": "interiorDefense",
-              "min": 60
-            },
-            {
-              "attributeKey": "block",
-              "min": 74
-            }
-          ]
-        },
-        {
-          "tier": "silver",
-          "xp": 2250,
-          "requirements": [
-            {
-              "attributeKey": "interiorDefense",
-              "min": 70
-            },
-            {
-              "attributeKey": "block",
-              "min": 84
-            }
-          ]
-        },
-        {
-          "tier": "gold",
-          "xp": 4500,
-          "requirements": [
-            {
-              "attributeKey": "interiorDefense",
-              "min": 77
-            },
-            {
-              "attributeKey": "block",
-              "min": 93
-            }
-          ]
-        },
-        {
-          "tier": "hof",
-          "xp": 11250,
-          "requirements": [
-            {
-              "attributeKey": "interiorDefense",
-              "min": 84
-            },
-            {
-              "attributeKey": "block",
-              "min": 97
-            }
-          ]
-        },
-        {
-          "tier": "legend",
-          "xp": 28125,
-          "requirements": [
-            {
-              "attributeKey": "interiorDefense",
-              "min": 89
-            },
-            {
-              "attributeKey": "block",
-              "min": 99
+              "anyOf": [
+                {
+                  "attributeKey": "speed",
+                  "min": 98
+                },
+                {
+                  "attributeKey": "agility",
+                  "min": 98
+                }
+              ]
             }
           ]
         }
@@ -3302,8 +3580,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 80,
-      "strength": 40,
       "agility": 80,
+      "strength": 40,
       "vertical": 80,
       "hustle": 70,
       "stamina": 70,
@@ -3339,8 +3617,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 79,
-      "strength": 41,
       "agility": 79,
+      "strength": 41,
       "vertical": 79,
       "hustle": 70,
       "stamina": 70,
@@ -3376,8 +3654,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 78,
-      "strength": 42,
       "agility": 78,
+      "strength": 42,
       "vertical": 78,
       "hustle": 70,
       "stamina": 70,
@@ -3413,8 +3691,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 77,
-      "strength": 43,
       "agility": 77,
+      "strength": 43,
       "vertical": 77,
       "hustle": 70,
       "stamina": 70,
@@ -3450,8 +3728,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 76,
-      "strength": 44,
       "agility": 76,
+      "strength": 44,
       "vertical": 76,
       "hustle": 70,
       "stamina": 70,
@@ -3487,8 +3765,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 75,
-      "strength": 45,
       "agility": 75,
+      "strength": 45,
       "vertical": 75,
       "hustle": 70,
       "stamina": 70,
@@ -3524,8 +3802,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 74,
-      "strength": 46,
       "agility": 74,
+      "strength": 46,
       "vertical": 74,
       "hustle": 70,
       "stamina": 70,
@@ -3561,8 +3839,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 73,
-      "strength": 47,
       "agility": 73,
+      "strength": 47,
       "vertical": 73,
       "hustle": 70,
       "stamina": 70,
@@ -3598,8 +3876,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 72,
-      "strength": 48,
       "agility": 72,
+      "strength": 48,
       "vertical": 72,
       "hustle": 70,
       "stamina": 70,
@@ -3635,8 +3913,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 70,
-      "strength": 49,
       "agility": 70,
+      "strength": 49,
       "vertical": 71,
       "hustle": 70,
       "stamina": 70,
@@ -3672,8 +3950,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 68,
-      "strength": 50,
       "agility": 68,
+      "strength": 50,
       "vertical": 70,
       "hustle": 70,
       "stamina": 70,
@@ -3709,8 +3987,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 66,
-      "strength": 51,
       "agility": 66,
+      "strength": 51,
       "vertical": 69,
       "hustle": 70,
       "stamina": 70,
@@ -3746,8 +4024,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 64,
-      "strength": 52,
       "agility": 64,
+      "strength": 52,
       "vertical": 68,
       "hustle": 70,
       "stamina": 70,
@@ -3783,8 +4061,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 62,
-      "strength": 53,
       "agility": 62,
+      "strength": 53,
       "vertical": 67,
       "hustle": 70,
       "stamina": 70,
@@ -3820,8 +4098,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 58,
-      "strength": 54,
       "agility": 58,
+      "strength": 54,
       "vertical": 66,
       "hustle": 70,
       "stamina": 70,
@@ -3857,8 +4135,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 54,
-      "strength": 55,
       "agility": 54,
+      "strength": 55,
       "vertical": 65,
       "hustle": 70,
       "stamina": 70,
@@ -3894,8 +4172,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 46,
-      "strength": 56,
       "agility": 46,
+      "strength": 56,
       "vertical": 64,
       "hustle": 70,
       "stamina": 70,
@@ -3931,8 +4209,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 42,
-      "strength": 57,
       "agility": 42,
+      "strength": 57,
       "vertical": 63,
       "hustle": 70,
       "stamina": 70,
@@ -3968,8 +4246,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 38,
-      "strength": 58,
       "agility": 38,
+      "strength": 58,
       "vertical": 62,
       "hustle": 70,
       "stamina": 70,
@@ -4005,8 +4283,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 34,
-      "strength": 59,
       "agility": 34,
+      "strength": 59,
       "vertical": 61,
       "hustle": 70,
       "stamina": 70,
@@ -4042,8 +4320,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 30,
-      "strength": 60,
       "agility": 30,
+      "strength": 60,
       "vertical": 60,
       "hustle": 70,
       "stamina": 70,
@@ -4079,8 +4357,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 26,
-      "strength": 61,
       "agility": 26,
+      "strength": 61,
       "vertical": 59,
       "hustle": 70,
       "stamina": 70,
@@ -4116,8 +4394,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 25,
-      "strength": 62,
       "agility": 25,
+      "strength": 62,
       "vertical": 58,
       "hustle": 70,
       "stamina": 70,
@@ -4153,8 +4431,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 25,
-      "strength": 63,
       "agility": 25,
+      "strength": 63,
       "vertical": 57,
       "hustle": 70,
       "stamina": 70,
@@ -4190,8 +4468,8 @@
       "offensiveConsistency": 70,
       "shotIq": 70,
       "speed": 25,
-      "strength": 64,
       "agility": 25,
+      "strength": 64,
       "vertical": 56,
       "hustle": 70,
       "stamina": 70,
@@ -4238,15 +4516,6 @@
     "maxWeight": 400,
     "minWingspan": 67,
     "maxWingspan": 108
-  },
-  "upgrade": {
-    "tierMultipliers": [
-      0.5,
-      0.75,
-      1.0,
-      1.5,
-      2.0
-    ]
   },
   "rating": {
     "attrScale": 1096,
@@ -6491,5 +6760,14 @@
         }
       ]
     }
-  ]
+  ],
+  "upgrade": {
+    "tierMultipliers": [
+      0.5,
+      0.75,
+      1.0,
+      1.5,
+      2.0
+    ]
+  }
 }

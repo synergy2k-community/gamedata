@@ -3,6 +3,106 @@
   "name": "synergy2k-community",
   "games": [
     {
+      "key": "2k16",
+      "name": "NBA 2K16",
+      "schemaVersion": 1,
+      "attributes": 44,
+      "badges": 50,
+      "files": {
+        "schema": {
+          "path": "2k16/schema.json",
+          "hash": "sha256-efd0f2d8fae11730a3afd3f4262a64d74c9f17477a1d810af11f00a4c6f36c56"
+        },
+        "rosters": []
+      }
+    },
+    {
+      "key": "2k17",
+      "name": "NBA 2K17",
+      "schemaVersion": 1,
+      "attributes": 46,
+      "badges": 35,
+      "files": {
+        "schema": {
+          "path": "2k17/schema.json",
+          "hash": "sha256-0f569537cbb3ed5b51feb6fae7f8609cf64749fd0b8cce16301f2ec452b53f97"
+        },
+        "rosters": []
+      }
+    },
+    {
+      "key": "2k18",
+      "name": "NBA 2K18",
+      "schemaVersion": 1,
+      "attributes": 46,
+      "badges": 37,
+      "files": {
+        "schema": {
+          "path": "2k18/schema.json",
+          "hash": "sha256-732c00046036575f985abe48c80a2d604e937cb2f75d8367cd6de848095cf5dc"
+        },
+        "rosters": []
+      }
+    },
+    {
+      "key": "2k19",
+      "name": "NBA 2K19",
+      "schemaVersion": 1,
+      "attributes": 45,
+      "badges": 42,
+      "files": {
+        "schema": {
+          "path": "2k19/schema.json",
+          "hash": "sha256-28ea893797ec15b827eac3cd2752e336c192dcbfa1427e69f2e8766de4e70bd2"
+        },
+        "rosters": []
+      }
+    },
+    {
+      "key": "2k20",
+      "name": "NBA 2K20",
+      "schemaVersion": 1,
+      "attributes": 38,
+      "badges": 74,
+      "files": {
+        "schema": {
+          "path": "2k20/schema.json",
+          "hash": "sha256-8a6229ce7362635ba02bb0034272d61b0ced960509da5da2890975a863499601"
+        },
+        "rosters": [
+          {
+            "id": "2k20-launch",
+            "name": "Launch Roster",
+            "players": 496,
+            "path": "2k20/rosters/launch.json",
+            "hash": "sha256-ec0ec12f408d5792dc22a1c25f2b382627452084d0ace64b397e32dc6195f041"
+          }
+        ]
+      }
+    },
+    {
+      "key": "2k21",
+      "name": "NBA 2K21",
+      "schemaVersion": 1,
+      "attributes": 38,
+      "badges": 74,
+      "files": {
+        "schema": {
+          "path": "2k21/schema.json",
+          "hash": "sha256-1c8d874741f081efbcd8864a2bdaf2f1dce27bdc9a7c6195692742f017bd0468"
+        },
+        "rosters": [
+          {
+            "id": "2k21-launch",
+            "name": "Launch Roster",
+            "players": 556,
+            "path": "2k21/rosters/launch.json",
+            "hash": "sha256-ac2a2e12d610c1d8fb355b6b29ad05422c8d624c662add08286bb78c08ea723e"
+          }
+        ]
+      }
+    },
+    {
       "key": "2k22",
       "name": "NBA 2K22",
       "schemaVersion": 1,
@@ -11,7 +111,7 @@
       "files": {
         "schema": {
           "path": "2k22/schema.json",
-          "hash": "sha256-75903139a90b3fdd4e21f622db4a5fab5cf920f4d03551b44da096ad05b77aff"
+          "hash": "sha256-a78ecd74962bb1e53708e9a2a2b08b9ce8bce117b82b01d77a525a36b738a7f2"
         },
         "rosters": [
           {
@@ -25,6 +125,56 @@
       }
     },
     {
+      "key": "2k23",
+      "name": "NBA 2K23",
+      "schemaVersion": 1,
+      "attributes": 35,
+      "badges": 115,
+      "files": {
+        "schema": {
+          "path": "2k23/schema.json",
+          "hash": "sha256-81ff25ee71dc8e440645aa8fd6f3afd7dfb57d4d2157578552eeaf0c7439bc55"
+        },
+        "rosters": [
+          {
+            "id": "2k23-launch",
+            "name": "Launch Roster",
+            "players": 478,
+            "path": "2k23/rosters/launch.json",
+            "hash": "sha256-eeab2872420c0fc865535aff375cc1f08f90fa669d0579c1c5d67f20f5563bf6"
+          }
+        ]
+      }
+    },
+    {
+      "key": "2k24",
+      "name": "NBA 2K24",
+      "schemaVersion": 1,
+      "attributes": 35,
+      "badges": 77,
+      "files": {
+        "schema": {
+          "path": "2k24/schema.json",
+          "hash": "sha256-052766afe2dc2ffc4e5c1cb855688d2977d57962bd3096fa6049f009c6cb39c8"
+        },
+        "rosters": []
+      }
+    },
+    {
+      "key": "2k25",
+      "name": "NBA 2K25",
+      "schemaVersion": 1,
+      "attributes": 35,
+      "badges": 40,
+      "files": {
+        "schema": {
+          "path": "2k25/schema.json",
+          "hash": "sha256-e51cecaaeff9f67267661b26460636006dc9cb879f5d901d34652fb92f5a092f"
+        },
+        "rosters": []
+      }
+    },
+    {
       "key": "2k26",
       "name": "NBA 2K26",
       "schemaVersion": 1,
@@ -33,7 +183,7 @@
       "files": {
         "schema": {
           "path": "2k26/schema.json",
-          "hash": "sha256-f02e5b8f56f2fff943b0b29109c66b9eff7607002bc54b31da3c9ef3ce4b931e"
+          "hash": "sha256-fe6c7f301e6adcf87a2c403527391bd384da5e820997978cc6d610e9bb3d8af6"
         },
         "rosters": [
           {
