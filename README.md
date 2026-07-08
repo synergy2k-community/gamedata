@@ -17,8 +17,17 @@ Currently published versions:
 
 | Key    | Name     | Attributes | Badges | Roster (players) |
 |--------|----------|-----------:|-------:|-----------------:|
+| `2k16` | NBA 2K16 | 44         | 50     | — |
+| `2k17` | NBA 2K17 | 46         | 35     | — |
+| `2k18` | NBA 2K18 | 46         | 37     | — |
+| `2k19` | NBA 2K19 | 45         | 42     | — |
+| `2k20` | NBA 2K20 | 38         | 74     | Launch Roster (496) |
+| `2k21` | NBA 2K21 | 38         | 74     | Launch Roster (556) |
 | `2k22` | NBA 2K22 | 35         | 75     | Launch Roster (556) |
-| `2k26` | NBA 2K26 | 35         | 40     | Current Roster (534) — **WIP** |
+| `2k23` | NBA 2K23 | 35         | 115    | Launch Roster (478) |
+| `2k24` | NBA 2K24 | 35         | 77     | — |
+| `2k25` | NBA 2K25 | 35         | 40     | — |
+| `2k26` | NBA 2K26 | 35         | 40     | Current Roster (534) |
 
 ## How the app consumes it
 

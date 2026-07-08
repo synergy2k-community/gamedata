@@ -4079,6 +4079,28 @@
       }
     ]
   },
+  "awards": {
+    "playoffResultXp": {
+      "champion": 15000,
+      "finals": 8000,
+      "conf_finals": 4500,
+      "semis": 2500,
+      "first_round": 1200,
+      "missed": 0
+    },
+    "awardXp": {
+      "mvp": 10000,
+      "finals_mvp": 7500,
+      "dpoy": 5000,
+      "all_nba": 4000,
+      "roy": 4000,
+      "mip": 3000,
+      "sixth_man": 3000,
+      "all_defensive": 2500,
+      "all_star": 2000,
+      "all_rookie": 1200
+    }
+  },
   "achievements": [
     {
       "key": "career-points-bronze",
@@ -4087,7 +4109,7 @@
       "tier": "bronze",
       "category": "scoring",
       "scope": "career",
-      "xp": 150,
+      "xp": 3000,
       "requirements": [
         {
           "stat": "pts",
@@ -4104,7 +4126,7 @@
       "tier": "silver",
       "category": "scoring",
       "scope": "career",
-      "xp": 400,
+      "xp": 7500,
       "requirements": [
         {
           "stat": "pts",
@@ -4121,7 +4143,7 @@
       "tier": "gold",
       "category": "scoring",
       "scope": "career",
-      "xp": 900,
+      "xp": 15000,
       "requirements": [
         {
           "stat": "pts",
@@ -4138,7 +4160,7 @@
       "tier": "hof",
       "category": "scoring",
       "scope": "career",
-      "xp": 2000,
+      "xp": 35000,
       "requirements": [
         {
           "stat": "pts",
@@ -4155,7 +4177,7 @@
       "tier": "bronze",
       "category": "scoring",
       "scope": "game",
-      "xp": 175,
+      "xp": 1000,
       "requirements": [
         {
           "stat": "pts",
@@ -4171,7 +4193,7 @@
       "tier": "silver",
       "category": "scoring",
       "scope": "game",
-      "xp": 450,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "pts",
@@ -4187,7 +4209,7 @@
       "tier": "gold",
       "category": "scoring",
       "scope": "game",
-      "xp": 1000,
+      "xp": 7500,
       "requirements": [
         {
           "stat": "pts",
@@ -4203,7 +4225,7 @@
       "tier": "hof",
       "category": "scoring",
       "scope": "game",
-      "xp": 2200,
+      "xp": 15000,
       "requirements": [
         {
           "stat": "pts",
@@ -4219,7 +4241,7 @@
       "tier": "bronze",
       "category": "scoring",
       "scope": "season",
-      "xp": 175,
+      "xp": 3500,
       "requirements": [
         {
           "stat": "ppg",
@@ -4235,7 +4257,7 @@
       "tier": "silver",
       "category": "scoring",
       "scope": "season",
-      "xp": 475,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "ppg",
@@ -4251,7 +4273,7 @@
       "tier": "gold",
       "category": "scoring",
       "scope": "season",
-      "xp": 1075,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "ppg",
@@ -4267,7 +4289,7 @@
       "tier": "hof",
       "category": "scoring",
       "scope": "season",
-      "xp": 2400,
+      "xp": 25000,
       "requirements": [
         {
           "stat": "ppg",
@@ -4283,7 +4305,7 @@
       "tier": "hof",
       "category": "scoring",
       "scope": "game",
-      "xp": 2425,
+      "xp": 50000,
       "requirements": [
         {
           "stat": "pts",
@@ -4299,7 +4321,7 @@
       "tier": "gold",
       "category": "scoring",
       "scope": "game",
-      "xp": 1375,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "feat50InLoss",
@@ -4314,7 +4336,7 @@
       "tier": "bronze",
       "category": "playmaking",
       "scope": "career",
-      "xp": 150,
+      "xp": 3500,
       "requirements": [
         {
           "stat": "ast",
@@ -4331,7 +4353,7 @@
       "tier": "silver",
       "category": "playmaking",
       "scope": "career",
-      "xp": 400,
+      "xp": 7500,
       "requirements": [
         {
           "stat": "ast",
@@ -4348,7 +4370,7 @@
       "tier": "gold",
       "category": "playmaking",
       "scope": "career",
-      "xp": 900,
+      "xp": 12500,
       "requirements": [
         {
           "stat": "ast",
@@ -4365,7 +4387,7 @@
       "tier": "hof",
       "category": "playmaking",
       "scope": "career",
-      "xp": 2000,
+      "xp": 20000,
       "requirements": [
         {
           "stat": "ast",
@@ -4382,7 +4404,7 @@
       "tier": "bronze",
       "category": "playmaking",
       "scope": "game",
-      "xp": 175,
+      "xp": 1000,
       "requirements": [
         {
           "stat": "ast",
@@ -4398,7 +4420,7 @@
       "tier": "silver",
       "category": "playmaking",
       "scope": "game",
-      "xp": 450,
+      "xp": 3500,
       "requirements": [
         {
           "stat": "ast",
@@ -4414,7 +4436,7 @@
       "tier": "gold",
       "category": "playmaking",
       "scope": "game",
-      "xp": 1000,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "ast",
@@ -4430,7 +4452,7 @@
       "tier": "hof",
       "category": "playmaking",
       "scope": "game",
-      "xp": 2200,
+      "xp": 8000,
       "requirements": [
         {
           "stat": "ast",
@@ -4446,7 +4468,7 @@
       "tier": "bronze",
       "category": "playmaking",
       "scope": "season",
-      "xp": 175,
+      "xp": 3500,
       "requirements": [
         {
           "stat": "apg",
@@ -4462,7 +4484,7 @@
       "tier": "silver",
       "category": "playmaking",
       "scope": "season",
-      "xp": 475,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "apg",
@@ -4478,7 +4500,7 @@
       "tier": "gold",
       "category": "playmaking",
       "scope": "season",
-      "xp": 1075,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "apg",
@@ -4494,7 +4516,7 @@
       "tier": "hof",
       "category": "playmaking",
       "scope": "season",
-      "xp": 2400,
+      "xp": 20000,
       "requirements": [
         {
           "stat": "apg",
@@ -4510,7 +4532,7 @@
       "tier": "bronze",
       "category": "rebounding",
       "scope": "career",
-      "xp": 150,
+      "xp": 3500,
       "requirements": [
         {
           "stat": "reb",
@@ -4527,7 +4549,7 @@
       "tier": "silver",
       "category": "rebounding",
       "scope": "career",
-      "xp": 400,
+      "xp": 7500,
       "requirements": [
         {
           "stat": "reb",
@@ -4544,7 +4566,7 @@
       "tier": "gold",
       "category": "rebounding",
       "scope": "career",
-      "xp": 900,
+      "xp": 12500,
       "requirements": [
         {
           "stat": "reb",
@@ -4561,7 +4583,7 @@
       "tier": "hof",
       "category": "rebounding",
       "scope": "career",
-      "xp": 2000,
+      "xp": 25000,
       "requirements": [
         {
           "stat": "reb",
@@ -4578,7 +4600,7 @@
       "tier": "bronze",
       "category": "rebounding",
       "scope": "game",
-      "xp": 175,
+      "xp": 1000,
       "requirements": [
         {
           "stat": "reb",
@@ -4594,7 +4616,7 @@
       "tier": "silver",
       "category": "rebounding",
       "scope": "game",
-      "xp": 450,
+      "xp": 3500,
       "requirements": [
         {
           "stat": "reb",
@@ -4610,7 +4632,7 @@
       "tier": "gold",
       "category": "rebounding",
       "scope": "game",
-      "xp": 1000,
+      "xp": 6500,
       "requirements": [
         {
           "stat": "reb",
@@ -4626,7 +4648,7 @@
       "tier": "hof",
       "category": "rebounding",
       "scope": "game",
-      "xp": 2200,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "reb",
@@ -4642,7 +4664,7 @@
       "tier": "bronze",
       "category": "rebounding",
       "scope": "season",
-      "xp": 175,
+      "xp": 3500,
       "requirements": [
         {
           "stat": "rpg",
@@ -4658,7 +4680,7 @@
       "tier": "silver",
       "category": "rebounding",
       "scope": "season",
-      "xp": 475,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "rpg",
@@ -4674,7 +4696,7 @@
       "tier": "gold",
       "category": "rebounding",
       "scope": "season",
-      "xp": 1075,
+      "xp": 8500,
       "requirements": [
         {
           "stat": "rpg",
@@ -4690,7 +4712,7 @@
       "tier": "hof",
       "category": "rebounding",
       "scope": "season",
-      "xp": 2400,
+      "xp": 16000,
       "requirements": [
         {
           "stat": "rpg",
@@ -4706,7 +4728,7 @@
       "tier": "bronze",
       "category": "defense",
       "scope": "career",
-      "xp": 150,
+      "xp": 3500,
       "requirements": [
         {
           "stat": "stl",
@@ -4723,7 +4745,7 @@
       "tier": "silver",
       "category": "defense",
       "scope": "career",
-      "xp": 400,
+      "xp": 7500,
       "requirements": [
         {
           "stat": "stl",
@@ -4740,7 +4762,7 @@
       "tier": "gold",
       "category": "defense",
       "scope": "career",
-      "xp": 900,
+      "xp": 12500,
       "requirements": [
         {
           "stat": "stl",
@@ -4757,7 +4779,7 @@
       "tier": "hof",
       "category": "defense",
       "scope": "career",
-      "xp": 2000,
+      "xp": 20000,
       "requirements": [
         {
           "stat": "stl",
@@ -4774,7 +4796,7 @@
       "tier": "bronze",
       "category": "defense",
       "scope": "career",
-      "xp": 150,
+      "xp": 3500,
       "requirements": [
         {
           "stat": "blk",
@@ -4791,7 +4813,7 @@
       "tier": "silver",
       "category": "defense",
       "scope": "career",
-      "xp": 400,
+      "xp": 7500,
       "requirements": [
         {
           "stat": "blk",
@@ -4808,7 +4830,7 @@
       "tier": "gold",
       "category": "defense",
       "scope": "career",
-      "xp": 900,
+      "xp": 12500,
       "requirements": [
         {
           "stat": "blk",
@@ -4825,7 +4847,7 @@
       "tier": "hof",
       "category": "defense",
       "scope": "career",
-      "xp": 2000,
+      "xp": 20000,
       "requirements": [
         {
           "stat": "blk",
@@ -4842,7 +4864,7 @@
       "tier": "bronze",
       "category": "defense",
       "scope": "game",
-      "xp": 175,
+      "xp": 3500,
       "requirements": [
         {
           "stat": "stl",
@@ -4858,7 +4880,7 @@
       "tier": "silver",
       "category": "defense",
       "scope": "game",
-      "xp": 450,
+      "xp": 6000,
       "requirements": [
         {
           "stat": "stl",
@@ -4874,7 +4896,7 @@
       "tier": "gold",
       "category": "defense",
       "scope": "game",
-      "xp": 1000,
+      "xp": 8500,
       "requirements": [
         {
           "stat": "stl",
@@ -4890,7 +4912,7 @@
       "tier": "hof",
       "category": "defense",
       "scope": "game",
-      "xp": 2200,
+      "xp": 12500,
       "requirements": [
         {
           "stat": "stl",
@@ -4906,7 +4928,7 @@
       "tier": "bronze",
       "category": "defense",
       "scope": "game",
-      "xp": 175,
+      "xp": 3000,
       "requirements": [
         {
           "stat": "blk",
@@ -4922,7 +4944,7 @@
       "tier": "silver",
       "category": "defense",
       "scope": "game",
-      "xp": 450,
+      "xp": 5500,
       "requirements": [
         {
           "stat": "blk",
@@ -4938,7 +4960,7 @@
       "tier": "gold",
       "category": "defense",
       "scope": "game",
-      "xp": 1000,
+      "xp": 9000,
       "requirements": [
         {
           "stat": "blk",
@@ -4954,7 +4976,7 @@
       "tier": "hof",
       "category": "defense",
       "scope": "game",
-      "xp": 2200,
+      "xp": 12500,
       "requirements": [
         {
           "stat": "blk",
@@ -4970,7 +4992,7 @@
       "tier": "bronze",
       "category": "defense",
       "scope": "season",
-      "xp": 175,
+      "xp": 3500,
       "requirements": [
         {
           "stat": "spg",
@@ -4986,7 +5008,7 @@
       "tier": "silver",
       "category": "defense",
       "scope": "season",
-      "xp": 475,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "spg",
@@ -5002,7 +5024,7 @@
       "tier": "gold",
       "category": "defense",
       "scope": "season",
-      "xp": 1075,
+      "xp": 6500,
       "requirements": [
         {
           "stat": "spg",
@@ -5018,7 +5040,7 @@
       "tier": "hof",
       "category": "defense",
       "scope": "season",
-      "xp": 2400,
+      "xp": 8000,
       "requirements": [
         {
           "stat": "spg",
@@ -5034,7 +5056,7 @@
       "tier": "bronze",
       "category": "defense",
       "scope": "season",
-      "xp": 175,
+      "xp": 3500,
       "requirements": [
         {
           "stat": "bpg",
@@ -5050,7 +5072,7 @@
       "tier": "silver",
       "category": "defense",
       "scope": "season",
-      "xp": 475,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "bpg",
@@ -5066,7 +5088,7 @@
       "tier": "gold",
       "category": "defense",
       "scope": "season",
-      "xp": 1075,
+      "xp": 8500,
       "requirements": [
         {
           "stat": "bpg",
@@ -5082,7 +5104,7 @@
       "tier": "hof",
       "category": "defense",
       "scope": "season",
-      "xp": 2400,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "bpg",
@@ -5098,7 +5120,7 @@
       "tier": "bronze",
       "category": "shooting",
       "scope": "career",
-      "xp": 150,
+      "xp": 3500,
       "requirements": [
         {
           "stat": "tpm",
@@ -5115,7 +5137,7 @@
       "tier": "silver",
       "category": "shooting",
       "scope": "career",
-      "xp": 400,
+      "xp": 7500,
       "requirements": [
         {
           "stat": "tpm",
@@ -5132,7 +5154,7 @@
       "tier": "gold",
       "category": "shooting",
       "scope": "career",
-      "xp": 900,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "tpm",
@@ -5149,7 +5171,7 @@
       "tier": "hof",
       "category": "shooting",
       "scope": "career",
-      "xp": 2000,
+      "xp": 15000,
       "requirements": [
         {
           "stat": "tpm",
@@ -5166,7 +5188,7 @@
       "tier": "bronze",
       "category": "shooting",
       "scope": "game",
-      "xp": 175,
+      "xp": 2000,
       "requirements": [
         {
           "stat": "tpm",
@@ -5182,7 +5204,7 @@
       "tier": "silver",
       "category": "shooting",
       "scope": "game",
-      "xp": 450,
+      "xp": 4500,
       "requirements": [
         {
           "stat": "tpm",
@@ -5198,7 +5220,7 @@
       "tier": "gold",
       "category": "shooting",
       "scope": "game",
-      "xp": 1000,
+      "xp": 7500,
       "requirements": [
         {
           "stat": "tpm",
@@ -5214,7 +5236,7 @@
       "tier": "hof",
       "category": "shooting",
       "scope": "game",
-      "xp": 2200,
+      "xp": 12500,
       "requirements": [
         {
           "stat": "tpm",
@@ -5230,7 +5252,7 @@
       "tier": "silver",
       "category": "shooting",
       "scope": "season",
-      "xp": 525,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "fgPct",
@@ -5246,7 +5268,7 @@
       "tier": "silver",
       "category": "shooting",
       "scope": "season",
-      "xp": 525,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "tpPct",
@@ -5262,7 +5284,7 @@
       "tier": "silver",
       "category": "shooting",
       "scope": "season",
-      "xp": 525,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "ftPct",
@@ -5278,7 +5300,7 @@
       "tier": "gold",
       "category": "shooting",
       "scope": "season",
-      "xp": 1500,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "feat504090",
@@ -5293,7 +5315,7 @@
       "tier": "bronze",
       "category": "all-around",
       "scope": "career",
-      "xp": 150,
+      "xp": 3500,
       "requirements": [
         {
           "stat": "dd",
@@ -5310,7 +5332,7 @@
       "tier": "silver",
       "category": "all-around",
       "scope": "career",
-      "xp": 400,
+      "xp": 7500,
       "requirements": [
         {
           "stat": "dd",
@@ -5327,7 +5349,7 @@
       "tier": "gold",
       "category": "all-around",
       "scope": "career",
-      "xp": 900,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "dd",
@@ -5344,7 +5366,7 @@
       "tier": "hof",
       "category": "all-around",
       "scope": "career",
-      "xp": 2000,
+      "xp": 15000,
       "requirements": [
         {
           "stat": "dd",
@@ -5361,7 +5383,7 @@
       "tier": "bronze",
       "category": "all-around",
       "scope": "career",
-      "xp": 150,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "td",
@@ -5378,7 +5400,7 @@
       "tier": "silver",
       "category": "all-around",
       "scope": "career",
-      "xp": 400,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "td",
@@ -5395,7 +5417,7 @@
       "tier": "gold",
       "category": "all-around",
       "scope": "career",
-      "xp": 900,
+      "xp": 15000,
       "requirements": [
         {
           "stat": "td",
@@ -5412,7 +5434,7 @@
       "tier": "hof",
       "category": "all-around",
       "scope": "career",
-      "xp": 2000,
+      "xp": 25000,
       "requirements": [
         {
           "stat": "td",
@@ -5429,7 +5451,7 @@
       "tier": "silver",
       "category": "all-around",
       "scope": "career",
-      "xp": 450,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "td",
@@ -5445,7 +5467,7 @@
       "tier": "hof",
       "category": "all-around",
       "scope": "season",
-      "xp": 3350,
+      "xp": 20000,
       "requirements": [
         {
           "stat": "featTdAvg",
@@ -5460,7 +5482,7 @@
       "tier": "gold",
       "category": "all-around",
       "scope": "game",
-      "xp": 1375,
+      "xp": 7500,
       "requirements": [
         {
           "stat": "feat5x5",
@@ -5475,7 +5497,7 @@
       "tier": "gold",
       "category": "all-around",
       "scope": "game",
-      "xp": 1375,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "feat3020",
@@ -5490,7 +5512,7 @@
       "tier": "hof",
       "category": "all-around",
       "scope": "game",
-      "xp": 3075,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "featQuad",
@@ -5505,7 +5527,7 @@
       "tier": "hof",
       "category": "all-around",
       "scope": "game",
-      "xp": 3075,
+      "xp": 50000,
       "requirements": [
         {
           "stat": "featQuint",
@@ -5520,7 +5542,7 @@
       "tier": "bronze",
       "category": "longevity",
       "scope": "career",
-      "xp": 150,
+      "xp": 1500,
       "requirements": [
         {
           "stat": "gp",
@@ -5537,7 +5559,7 @@
       "tier": "silver",
       "category": "longevity",
       "scope": "career",
-      "xp": 400,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "gp",
@@ -5554,7 +5576,7 @@
       "tier": "gold",
       "category": "longevity",
       "scope": "career",
-      "xp": 900,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "gp",
@@ -5571,7 +5593,7 @@
       "tier": "hof",
       "category": "longevity",
       "scope": "career",
-      "xp": 2000,
+      "xp": 20000,
       "requirements": [
         {
           "stat": "gp",
@@ -5588,7 +5610,7 @@
       "tier": "bronze",
       "category": "longevity",
       "scope": "season",
-      "xp": 200,
+      "xp": 2000,
       "requirements": [
         {
           "stat": "gamesPlayed",
@@ -5605,7 +5627,7 @@
       "tier": "bronze",
       "category": "longevity",
       "scope": "game",
-      "xp": 50,
+      "xp": 500,
       "requirements": [
         {
           "stat": "featFoulOut",
@@ -5620,7 +5642,7 @@
       "tier": "bronze",
       "category": "wins",
       "scope": "season",
-      "xp": 175,
+      "xp": 4100,
       "requirements": [
         {
           "stat": "wins",
@@ -5637,7 +5659,7 @@
       "tier": "silver",
       "category": "wins",
       "scope": "season",
-      "xp": 475,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "wins",
@@ -5654,7 +5676,7 @@
       "tier": "gold",
       "category": "wins",
       "scope": "season",
-      "xp": 1075,
+      "xp": 7500,
       "requirements": [
         {
           "stat": "wins",
@@ -5671,7 +5693,7 @@
       "tier": "hof",
       "category": "wins",
       "scope": "season",
-      "xp": 2400,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "wins",
@@ -5688,7 +5710,7 @@
       "tier": "bronze",
       "category": "wins",
       "scope": "season",
-      "xp": 175,
+      "xp": 2500,
       "requirements": [
         {
           "stat": "winStreak",
@@ -5704,7 +5726,7 @@
       "tier": "silver",
       "category": "wins",
       "scope": "season",
-      "xp": 475,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "winStreak",
@@ -5720,7 +5742,7 @@
       "tier": "gold",
       "category": "wins",
       "scope": "season",
-      "xp": 1075,
+      "xp": 7500,
       "requirements": [
         {
           "stat": "winStreak",
@@ -5736,7 +5758,7 @@
       "tier": "hof",
       "category": "wins",
       "scope": "season",
-      "xp": 2400,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "winStreak",
@@ -5752,7 +5774,7 @@
       "tier": "silver",
       "category": "accolades",
       "scope": "award",
-      "xp": 475,
+      "xp": 15000,
       "requirements": [
         {
           "stat": "mvp",
@@ -5768,7 +5790,7 @@
       "tier": "gold",
       "category": "accolades",
       "scope": "award",
-      "xp": 1075,
+      "xp": 35000,
       "requirements": [
         {
           "stat": "mvp",
@@ -5784,7 +5806,7 @@
       "tier": "hof",
       "category": "accolades",
       "scope": "award",
-      "xp": 2400,
+      "xp": 50000,
       "requirements": [
         {
           "stat": "mvp",
@@ -5800,7 +5822,7 @@
       "tier": "silver",
       "category": "accolades",
       "scope": "award",
-      "xp": 475,
+      "xp": 15000,
       "requirements": [
         {
           "stat": "finalsMvp",
@@ -5816,7 +5838,7 @@
       "tier": "gold",
       "category": "accolades",
       "scope": "award",
-      "xp": 1075,
+      "xp": 35000,
       "requirements": [
         {
           "stat": "finalsMvp",
@@ -5832,7 +5854,7 @@
       "tier": "hof",
       "category": "accolades",
       "scope": "award",
-      "xp": 2400,
+      "xp": 60000,
       "requirements": [
         {
           "stat": "finalsMvp",
@@ -5848,7 +5870,7 @@
       "tier": "silver",
       "category": "accolades",
       "scope": "award",
-      "xp": 475,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "dpoy",
@@ -5864,7 +5886,7 @@
       "tier": "gold",
       "category": "accolades",
       "scope": "award",
-      "xp": 1075,
+      "xp": 30000,
       "requirements": [
         {
           "stat": "dpoy",
@@ -5880,7 +5902,7 @@
       "tier": "hof",
       "category": "accolades",
       "scope": "award",
-      "xp": 2400,
+      "xp": 50000,
       "requirements": [
         {
           "stat": "dpoy",
@@ -5896,7 +5918,7 @@
       "tier": "bronze",
       "category": "accolades",
       "scope": "award",
-      "xp": 175,
+      "xp": 3500,
       "requirements": [
         {
           "stat": "allStar",
@@ -5912,7 +5934,7 @@
       "tier": "silver",
       "category": "accolades",
       "scope": "award",
-      "xp": 475,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "allStar",
@@ -5928,7 +5950,7 @@
       "tier": "gold",
       "category": "accolades",
       "scope": "award",
-      "xp": 1075,
+      "xp": 20000,
       "requirements": [
         {
           "stat": "allStar",
@@ -5944,7 +5966,7 @@
       "tier": "hof",
       "category": "accolades",
       "scope": "award",
-      "xp": 2400,
+      "xp": 30000,
       "requirements": [
         {
           "stat": "allStar",
@@ -5960,7 +5982,7 @@
       "tier": "bronze",
       "category": "accolades",
       "scope": "award",
-      "xp": 175,
+      "xp": 3500,
       "requirements": [
         {
           "stat": "allNba",
@@ -5976,7 +5998,7 @@
       "tier": "silver",
       "category": "accolades",
       "scope": "award",
-      "xp": 475,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "allNba",
@@ -5992,7 +6014,7 @@
       "tier": "gold",
       "category": "accolades",
       "scope": "award",
-      "xp": 1075,
+      "xp": 20000,
       "requirements": [
         {
           "stat": "allNba",
@@ -6008,7 +6030,7 @@
       "tier": "hof",
       "category": "accolades",
       "scope": "award",
-      "xp": 2400,
+      "xp": 35000,
       "requirements": [
         {
           "stat": "allNba",
@@ -6024,7 +6046,7 @@
       "tier": "silver",
       "category": "accolades",
       "scope": "award",
-      "xp": 525,
+      "xp": 12500,
       "requirements": [
         {
           "stat": "roy",
@@ -6040,7 +6062,7 @@
       "tier": "silver",
       "category": "accolades",
       "scope": "award",
-      "xp": 525,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "sixthMan",
@@ -6056,7 +6078,7 @@
       "tier": "silver",
       "category": "accolades",
       "scope": "award",
-      "xp": 525,
+      "xp": 10000,
       "requirements": [
         {
           "stat": "mip",
@@ -6072,7 +6094,7 @@
       "tier": "bronze",
       "category": "playoffs",
       "scope": "award",
-      "xp": 200,
+      "xp": 7500,
       "requirements": [
         {
           "stat": "rings",
@@ -6088,7 +6110,7 @@
       "tier": "silver",
       "category": "playoffs",
       "scope": "award",
-      "xp": 550,
+      "xp": 15000,
       "requirements": [
         {
           "stat": "rings",
@@ -6104,7 +6126,7 @@
       "tier": "gold",
       "category": "playoffs",
       "scope": "award",
-      "xp": 1225,
+      "xp": 35000,
       "requirements": [
         {
           "stat": "rings",
@@ -6120,7 +6142,7 @@
       "tier": "hof",
       "category": "playoffs",
       "scope": "award",
-      "xp": 2700,
+      "xp": 50000,
       "requirements": [
         {
           "stat": "rings",
@@ -6136,7 +6158,7 @@
       "tier": "silver",
       "category": "playoffs",
       "scope": "award",
-      "xp": 600,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "roundReached",
@@ -6151,7 +6173,7 @@
       "tier": "gold",
       "category": "playoffs",
       "scope": "award",
-      "xp": 1325,
+      "xp": 8000,
       "requirements": [
         {
           "stat": "roundReached",
@@ -6166,7 +6188,7 @@
       "tier": "silver",
       "category": "playoffs",
       "scope": "award",
-      "xp": 750,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "featSweep",
@@ -6181,7 +6203,7 @@
       "tier": "silver",
       "category": "playoffs",
       "scope": "award",
-      "xp": 750,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "featGame7Win",
@@ -6196,7 +6218,7 @@
       "tier": "gold",
       "category": "playoffs",
       "scope": "award",
-      "xp": 1700,
+      "xp": 15000,
       "requirements": [
         {
           "stat": "featComeback31",
@@ -6211,7 +6233,7 @@
       "tier": "hof",
       "category": "playoffs",
       "scope": "award",
-      "xp": 3775,
+      "xp": 20000,
       "requirements": [
         {
           "stat": "featComeback30",
@@ -6226,7 +6248,7 @@
       "tier": "gold",
       "category": "playoffs",
       "scope": "award",
-      "xp": 1700,
+      "xp": 5000,
       "requirements": [
         {
           "stat": "feat50Playoff",
@@ -6241,7 +6263,7 @@
       "tier": "hof",
       "category": "playoffs",
       "scope": "award",
-      "xp": 3775,
+      "xp": 7500,
       "requirements": [
         {
           "stat": "feat50Finals",
@@ -6256,7 +6278,7 @@
       "tier": "gold",
       "category": "playoffs",
       "scope": "award",
-      "xp": 1700,
+      "xp": 7500,
       "requirements": [
         {
           "stat": "featFinalsAvg30",
@@ -6271,7 +6293,7 @@
       "tier": "hof",
       "category": "playoffs",
       "scope": "award",
-      "xp": 3775,
+      "xp": 15000,
       "requirements": [
         {
           "stat": "featPerfectRun",

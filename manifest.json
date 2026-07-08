@@ -11,7 +11,7 @@
       "files": {
         "schema": {
           "path": "2k16/schema.json",
-          "hash": "sha256-efd0f2d8fae11730a3afd3f4262a64d74c9f17477a1d810af11f00a4c6f36c56"
+          "hash": "sha256-dfa9ea1ae072ccb5cf1990fd3e4fe25069be1e92dfe1de55b3aafd8000773c48"
         },
         "rosters": []
       }
@@ -25,7 +25,7 @@
       "files": {
         "schema": {
           "path": "2k17/schema.json",
-          "hash": "sha256-0f569537cbb3ed5b51feb6fae7f8609cf64749fd0b8cce16301f2ec452b53f97"
+          "hash": "sha256-62887e79c99bbb29008f551ce6354bab21b17100cbfe845f938b972c52c59877"
         },
         "rosters": []
       }
@@ -39,7 +39,7 @@
       "files": {
         "schema": {
           "path": "2k18/schema.json",
-          "hash": "sha256-732c00046036575f985abe48c80a2d604e937cb2f75d8367cd6de848095cf5dc"
+          "hash": "sha256-108e25c2f3d6be9ed5f0066592f7ec69e8f87b8a8570fb7ca6152b37778aea6d"
         },
         "rosters": []
       }
@@ -53,7 +53,7 @@
       "files": {
         "schema": {
           "path": "2k19/schema.json",
-          "hash": "sha256-28ea893797ec15b827eac3cd2752e336c192dcbfa1427e69f2e8766de4e70bd2"
+          "hash": "sha256-e5b6727f4fbef42dee55e3d3ad9da59338cd5372b605b44aaeb4e82244557217"
         },
         "rosters": []
       }
@@ -67,7 +67,7 @@
       "files": {
         "schema": {
           "path": "2k20/schema.json",
-          "hash": "sha256-8a6229ce7362635ba02bb0034272d61b0ced960509da5da2890975a863499601"
+          "hash": "sha256-fe3deb55e78ebc123cf7e4ab451329515d6d0dd83a608c0123a927736408aa28"
         },
         "rosters": [
           {
@@ -89,7 +89,7 @@
       "files": {
         "schema": {
           "path": "2k21/schema.json",
-          "hash": "sha256-1c8d874741f081efbcd8864a2bdaf2f1dce27bdc9a7c6195692742f017bd0468"
+          "hash": "sha256-ed6a02f6d25bb174cd039109710799a88b96a55a997f5fa9fc3dd56b8a37480a"
         },
         "rosters": [
           {
@@ -111,7 +111,7 @@
       "files": {
         "schema": {
           "path": "2k22/schema.json",
-          "hash": "sha256-a78ecd74962bb1e53708e9a2a2b08b9ce8bce117b82b01d77a525a36b738a7f2"
+          "hash": "sha256-26028fffeafd38dfc5f0552994299f660cb736051f70b1f3d2bf5ee1f6bd9148"
         },
         "rosters": [
           {
@@ -133,7 +133,7 @@
       "files": {
         "schema": {
           "path": "2k23/schema.json",
-          "hash": "sha256-81ff25ee71dc8e440645aa8fd6f3afd7dfb57d4d2157578552eeaf0c7439bc55"
+          "hash": "sha256-91bd24941a1ef771d05d3472bd3343bd601d0a8890f96ffd3839f9a3aa8352c9"
         },
         "rosters": [
           {
@@ -155,7 +155,7 @@
       "files": {
         "schema": {
           "path": "2k24/schema.json",
-          "hash": "sha256-052766afe2dc2ffc4e5c1cb855688d2977d57962bd3096fa6049f009c6cb39c8"
+          "hash": "sha256-a06ac79c47ba788b4aabddd5ae281806039dc05817b4178aa5c2a48773f38885"
         },
         "rosters": []
       }
@@ -169,7 +169,7 @@
       "files": {
         "schema": {
           "path": "2k25/schema.json",
-          "hash": "sha256-e51cecaaeff9f67267661b26460636006dc9cb879f5d901d34652fb92f5a092f"
+          "hash": "sha256-4b9c0f9fa454c1868580801d7952aca3a910107f05621a64ca8676048ffae712"
         },
         "rosters": []
       }
@@ -183,7 +183,7 @@
       "files": {
         "schema": {
           "path": "2k26/schema.json",
-          "hash": "sha256-fe6c7f301e6adcf87a2c403527391bd384da5e820997978cc6d610e9bb3d8af6"
+          "hash": "sha256-93b19a1a0b61f55b1ff3ac5af5248269eb19c40edb17eefaffbedb41fc47b8d8"
         },
         "rosters": [
           {
