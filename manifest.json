@@ -157,7 +157,15 @@
           "path": "2k24/schema.json",
           "hash": "sha256-a06ac79c47ba788b4aabddd5ae281806039dc05817b4178aa5c2a48773f38885"
         },
-        "rosters": []
+        "rosters": [
+          {
+            "id": "2k24-launch",
+            "name": "Launch Roster",
+            "players": 487,
+            "path": "2k24/rosters/launch.json",
+            "hash": "sha256-3472721fa6e65dad5971f624d7d3694be6ad51ce6f46ba7fec0a34799d7bd232"
+          }
+        ]
       }
     },
     {
