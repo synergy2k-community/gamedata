@@ -6310,5 +6310,97 @@
       1.5,
       2.0
     ]
+  },
+  "hotZones": {
+    "costs": [
+      1000,
+      2000,
+      3000,
+      4000,
+      5000
+    ],
+    "sections": [
+      {
+        "key": "inside",
+        "label": "Inside",
+        "zones": [
+          "underBasket"
+        ],
+        "requirement": {
+          "anyOf": [
+            "drivingLayup",
+            "standingLayup"
+          ],
+          "thresholds": [
+            85
+          ]
+        }
+      },
+      {
+        "key": "close",
+        "label": "Close",
+        "zones": [
+          "closeLeft",
+          "closeMiddle",
+          "closeRight"
+        ],
+        "requirement": {
+          "anyOf": [
+            "shotClose"
+          ],
+          "thresholds": [
+            80,
+            85,
+            90
+          ]
+        }
+      },
+      {
+        "key": "mid",
+        "label": "Mid-Range",
+        "zones": [
+          "midLeft",
+          "midLeftCenter",
+          "midCenter",
+          "midRightCenter",
+          "midRight"
+        ],
+        "requirement": {
+          "anyOf": [
+            "openShotMid",
+            "offDribbleShotMid",
+            "contestedShotMid"
+          ],
+          "thresholds": [
+            80,
+            85,
+            90
+          ]
+        }
+      },
+      {
+        "key": "three",
+        "label": "Three-Point",
+        "zones": [
+          "threeLeftCorner",
+          "threeLeftWing",
+          "threeTop",
+          "threeRightWing",
+          "threeRightCorner"
+        ],
+        "requirement": {
+          "anyOf": [
+            "openShotThree",
+            "offDribbleShotThree",
+            "contestedShotThree"
+          ],
+          "thresholds": [
+            80,
+            85,
+            90
+          ]
+        }
+      }
+    ]
   }
 }
