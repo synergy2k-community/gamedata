@@ -11,7 +11,7 @@
       "files": {
         "schema": {
           "path": "2k16/schema.json",
-          "hash": "sha256-304292402313adb0f8c84b6ee1adbc3a543bff69bf3b348468c2991451e492af"
+          "hash": "sha256-b9700ecb99d8d2b619b52c61a89c77694d80f216b3d2e470aba27ffcfdad1002"
         },
         "rosters": []
       }
@@ -25,7 +25,7 @@
       "files": {
         "schema": {
           "path": "2k17/schema.json",
-          "hash": "sha256-57c68d4f9b5d52b1372d9669996b7717eeb6d05a1ee76a3371abe8ae5cc92ece"
+          "hash": "sha256-7cf1d2e5f0e0750791daa403262c7e15697973177de8b408880627630467c7dd"
         },
         "rosters": []
       }
@@ -39,7 +39,7 @@
       "files": {
         "schema": {
           "path": "2k18/schema.json",
-          "hash": "sha256-386936fc7bd30c09e809239d395640ffbf1b2fa9db407fbc95e83957e1ccca59"
+          "hash": "sha256-bbc521fb757ee75a67853e9ce3d270032762af24b3e0ff36cc90b8b137ba71e4"
         },
         "rosters": []
       }
@@ -53,7 +53,7 @@
       "files": {
         "schema": {
           "path": "2k19/schema.json",
-          "hash": "sha256-9868e3d5c7fb040a6a52a181c1998c652143e9944fc4f76ec45a149e141afe4b"
+          "hash": "sha256-10b4ae5057ac4fcc11b25ca369e43ab47584e26b169b5f49eccef195cc113308"
         },
         "rosters": []
       }
@@ -157,15 +157,7 @@
           "path": "2k24/schema.json",
           "hash": "sha256-55f8549b4a9910c14772f49e0308a2c9994aea25fd227aa8fe0a91f202d41c50"
         },
-        "rosters": [
-          {
-            "id": "2k24-launch",
-            "name": "Launch Roster",
-            "players": 487,
-            "path": "2k24/rosters/launch.json",
-            "hash": "sha256-3472721fa6e65dad5971f624d7d3694be6ad51ce6f46ba7fec0a34799d7bd232"
-          }
-        ]
+        "rosters": []
       }
     },
     {
@@ -177,7 +169,7 @@
       "files": {
         "schema": {
           "path": "2k25/schema.json",
-          "hash": "sha256-bb3c6836da57b95b7013dc1b144536641d012fd15777465da8b55354a96d5ec1"
+          "hash": "sha256-0e21373680b7066575ef64fc8ea6057e53475ce50de38f4076dc4c98c62640e1"
         },
         "rosters": []
       }
